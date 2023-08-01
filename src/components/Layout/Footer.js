@@ -1,6 +1,5 @@
 import React from "react";
-import Home from './../Home/index';
-
+import { Link } from "react-router-dom";
 const Footer = () => {
   return (
     <>
@@ -71,25 +70,25 @@ const Footer = () => {
                       id="menu-item-1198"
                       className="menu-item menu-item-type-post_type menu-item-object-page menu-item-1198"
                     >
-                      <a href="/">Home</a>
+                      <Link to="/">Home</Link>
                     </li>
                     <li
                       id="menu-item-1198"
                       className="menu-item menu-item-type-post_type menu-item-object-page menu-item-1198"
                     >
-                      <a href="/about">About Us</a>
+                      <Link to="/about">About Us</Link>
                     </li>
                     <li
                       id="menu-item-1195"
                       className="menu-item menu-item-type-post_type menu-item-object-page menu-item-1195"
                     >
-                      <a href="/services">Our Service</a>
+                      <Link to="/services">Our Service</Link>
                     </li>
                     <li
                       id="menu-item-1196"
                       className="menu-item menu-item-type-post_type menu-item-object-page menu-item-1196"
                     >
-                      <a href="/contact-us">Contact Us</a>
+                      <Link to="/contact-us">Contact Us</Link>
                     </li>
                   </ul>
                 </div>
