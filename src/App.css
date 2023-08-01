@@ -1,0 +1,146 @@
+@import url("./assets/css/animate.css");
+@import url("./assets/css/bootstrap.min.css");
+@import url("./assets/css/em-breadcrumb.css");
+@import url("./assets/css/flaticon.css");
+@import url("./assets/css/font-awesome.min.css");
+@import url("./assets/css/meanmenu.min.css");
+@import url("./assets/css/nivo-slider.css");
+@import url("./assets/css/owl.transitions.css");
+@import url("./assets/css/responsive.css");
+@import url("./assets/css/slick.css");
+@import url("./assets/css/theme-default.css");
+@import url("./assets/css/unittest.css");
+@import url("./assets/css/widget.css");
+/* @import url("./assets/css/svg.css"); */
+/* @import url("./assets/css/owl.carousel.css"); */
+/* @import url("./assets/css/bootstrap.min3.css"); */
+
+.elementor-1132 .elementor-element.elementor-element-dd773ea {
+  padding: 0px 0px 90px 0px;
+}
+
+.elementor-1132
+  .elementor-element.elementor-element-5074ed9:not(
+    .elementor-motion-effects-element-type-background
+  ),
+.elementor-1132
+  .elementor-element.elementor-element-5074ed9
+  > .elementor-motion-effects-container
+  > .elementor-motion-effects-layer {
+  background-image: url("https://wp.dreamitsolution.net/payloan/wp-content/uploads/2021/09/app_bg.png");
+  background-position: bottom center;
+  background-repeat: no-repeat;
+}
+
+.elementor-1132 .elementor-element.elementor-element-5074ed9 {
+  border-style: solid;
+  border-width: 2px 2px 2px 2px;
+  border-color: #8180e0;
+  box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.15);
+  transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+  margin-top: 30px;
+  margin-bottom: 0px;
+  padding: 50px 50px 150px 50px;
+}
+
+.elementor-1132
+  .elementor-element.elementor-element-5074ed9
+  > .elementor-background-overlay {
+  transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+}
+
+.elementor-1132 .elementor-element.elementor-element-fe0ba64 iframe {
+  height: 354px;
+}
+
+.elementor-1132 .elementor-element.elementor-element-ccc3438 {
+  margin-top: -73px;
+  margin-bottom: 0px;
+  padding: 0px 50px 0px 50px;
+}
+
+.elementor-1132
+  .elementor-element.elementor-element-e648f40
+  .feature-box
+  .feature-box-title
+  h2,
+.elementor-1132
+  .elementor-element.elementor-element-e648f40
+  .elementor-icon-box-content
+  .elementor-icon-box-title
+  a {
+  font-weight: 500;
+}
+
+.elementor-1132 .elementor-element.elementor-element-e648f40 .feature-box {
+  border-style: solid;
+  border-width: 1px 1px 1px 1px;
+  border-color: #eeeeee;
+  box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.2);
+  background-color: #ffffff;
+}
+
+.elementor-1132
+  .elementor-element.elementor-element-c65f68d
+  .feature-box
+  .feature-box-title
+  h2,
+.elementor-1132
+  .elementor-element.elementor-element-c65f68d
+  .elementor-icon-box-content
+  .elementor-icon-box-title
+  a {
+  font-weight: 500;
+}
+
+.elementor-1132 .elementor-element.elementor-element-c65f68d .feature-box {
+  border-style: solid;
+  border-width: 1px 1px 1px 1px;
+  border-color: #eeeeee;
+  box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.2);
+  background-color: #ffffff;
+}
+
+.elementor-1132
+  .elementor-element.elementor-element-a5ac578
+  .feature-box
+  .feature-box-title
+  h2,
+.elementor-1132
+  .elementor-element.elementor-element-a5ac578
+  .elementor-icon-box-content
+  .elementor-icon-box-title
+  a {
+  font-weight: 500;
+}
+
+.elementor-1132 .elementor-element.elementor-element-a5ac578 .feature-box {
+  border-style: solid;
+  border-width: 1px 1px 1px 1px;
+  border-color: #eeeeee;
+  box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.2);
+  background-color: #ffffff;
+}
+
+.payloan_nav_area.prefix,
+.hbg2 {
+  background-color: #ffffff !important;
+}
+.breadcumb-area,
+.breadcumb-blog-area {
+  background-repeat: no-repeat !important;
+  background-attachment: scroll !important;
+  background-position: right top !important;
+  background-image: url("https://wp.ditsolution.net/payloan/wp-content/uploads/2021/09/1.png") !important;
+  background-size: inherit !important;
+}
+.single-video::before {
+  background-color: rgba(0, 0, 0, 0.3) !important;
+}
+.footer-middle {
+  background-repeat: no-repeat !important;
+  background-attachment: scroll !important;
+  background-position: left top !important;
+  background-image: url("https://wp.ditsolution.net/payloan/wp-content/uploads/2021/09/2-3.png") !important;
+  background-size: cover !important;
+}

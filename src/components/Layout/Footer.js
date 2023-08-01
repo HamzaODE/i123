@@ -1,4 +1,5 @@
 import React from "react";
+import Home from './../Home/index';
 
 const Footer = () => {
   return (
@@ -70,45 +71,25 @@ const Footer = () => {
                       id="menu-item-1198"
                       className="menu-item menu-item-type-post_type menu-item-object-page menu-item-1198"
                     >
-                      <a href="https://wp.ditsolution.net/payloan/about-us/">
-                        About Us
-                      </a>
+                      <a href="/">Home</a>
+                    </li>
+                    <li
+                      id="menu-item-1198"
+                      className="menu-item menu-item-type-post_type menu-item-object-page menu-item-1198"
+                    >
+                      <a href="/about">About Us</a>
                     </li>
                     <li
                       id="menu-item-1195"
                       className="menu-item menu-item-type-post_type menu-item-object-page menu-item-1195"
                     >
-                      <a href="https://wp.ditsolution.net/payloan/our-service/">
-                        Our Service
-                      </a>
+                      <a href="/services">Our Service</a>
                     </li>
                     <li
                       id="menu-item-1196"
                       className="menu-item menu-item-type-post_type menu-item-object-page menu-item-1196"
                     >
-                      <a href="https://wp.ditsolution.net/payloan/contact-us/">
-                        Contact Us
-                      </a>
-                    </li>
-                    <li
-                      id="menu-item-1197"
-                      className="menu-item menu-item-type-post_type menu-item-object-page menu-item-1197"
-                    >
-                      <a href="https://wp.ditsolution.net/payloan/loan-calculator/">
-                        Loan Calculator
-                      </a>
-                    </li>
-                    <li
-                      id="menu-item-1199"
-                      className="menu-item menu-item-type-custom menu-item-object-custom menu-item-1199"
-                    >
-                      <a href="#">Testimonial</a>
-                    </li>
-                    <li
-                      id="menu-item-1200"
-                      className="menu-item menu-item-type-custom menu-item-object-custom menu-item-1200"
-                    >
-                      <a href="#">Latest News</a>
+                      <a href="/contact-us">Contact Us</a>
                     </li>
                   </ul>
                 </div>
@@ -121,23 +102,6 @@ const Footer = () => {
                 className="widget widget_mc4wp_form_widget"
               >
                 <h2 className="widget-title">Newsletter</h2>
-                {/* <script>
-                  (function (){" "}
-                  {
-                    (window.mc4wp = window.mc4wp || {
-                      listeners: [],
-                      forms: {
-                        on: function (evt, cb) {
-                          window.mc4wp.listeners.push({
-                            event: evt,
-                            callback: cb,
-                          });
-                        },
-                      },
-                    })
-                  }
-                  )();
-                </script> */}
                 <form
                   id="mc4wp-form-1"
                   className="mc4wp-form mc4wp-form-1201"
@@ -162,23 +126,6 @@ const Footer = () => {
                       <button type="submit">Subscribe</button>
                     </p>
                   </div>
-                  <label
-                  // style="display: none !important"
-                  >
-                    Leave this field empty if you're human:
-                    <input
-                      type="text"
-                      name="_mc4wp_honeypot"
-                      value=""
-                      tabindex="-1"
-                      autocomplete="off"
-                    />
-                  </label>
-                  <input
-                    type="hidden"
-                    name="_mc4wp_timestamp"
-                    value="1690811294"
-                  />
                   <input type="hidden" name="_mc4wp_form_id" value="1201" />
                   <input
                     type="hidden"

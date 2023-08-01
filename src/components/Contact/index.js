@@ -387,7 +387,7 @@ const Contact = () => {
                                   <div className="feature-box style-seven ">
                                     <div className="feature-box-icon">
                                       <span>
-                                        <i className="flaticon flaticon-map-2 restly-flaticon"></i>
+                                        <i className="flaticon flaticon-world restly-flaticon"></i>
                                       </span>
                                     </div>
 
@@ -402,7 +402,7 @@ const Contact = () => {
                                     </div>
                                     <div className="feature-icon bottom">
                                       <span>
-                                        <i className="flaticon flaticon-map-2 restly-flaticon"></i>
+                                        <i className="flaticon flaticon-world restly-flaticon"></i>
                                       </span>
                                     </div>
                                   </div>

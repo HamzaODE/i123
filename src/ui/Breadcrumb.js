@@ -12,7 +12,7 @@ const Breadcrumb = ({ current, previous }) => {
             <div className="breadcumb-inner">
               <ul>
                 <li>
-                  <a href="https://wp.ditsolution.net/payloan/">{previous}</a>
+                  <a href="/">{previous}</a>
                 </li>
                 <li>
                   <i className="fa fa-angle-right"></i>
