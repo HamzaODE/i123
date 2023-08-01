@@ -1,6 +1,6 @@
 import React from "react";
-import Home from './../Home/index';
-
+import { Link } from "react-router-dom";
+import logo from "../../assets/images/insure-logo.png";
 const Footer = () => {
   return (
     <>
@@ -12,10 +12,7 @@ const Footer = () => {
                 <div className="about-footer">
                   <div className="footer-widget address">
                     <div className="footer-logo">
-                      <img
-                        src="http://wp.dreamitsolution.net/payloan/wp-content/uploads/2021/09/payloan-logo.png"
-                        alt=""
-                      />
+                      <img src={logo} width={150} alt="logo" />
 
                       <p>
                         Lorem ipsum dolor sit amet, consetur acing elit, sed do
@@ -71,25 +68,25 @@ const Footer = () => {
                       id="menu-item-1198"
                       className="menu-item menu-item-type-post_type menu-item-object-page menu-item-1198"
                     >
-                      <a href="/">Home</a>
+                      <Link to="/">Home</Link>
                     </li>
                     <li
                       id="menu-item-1198"
                       className="menu-item menu-item-type-post_type menu-item-object-page menu-item-1198"
                     >
-                      <a href="/about">About Us</a>
+                      <Link to="/about">About Us</Link>
                     </li>
                     <li
                       id="menu-item-1195"
                       className="menu-item menu-item-type-post_type menu-item-object-page menu-item-1195"
                     >
-                      <a href="/services">Our Service</a>
+                      <Link to="/services">Our Service</Link>
                     </li>
                     <li
                       id="menu-item-1196"
                       className="menu-item menu-item-type-post_type menu-item-object-page menu-item-1196"
                     >
-                      <a href="/contact-us">Contact Us</a>
+                      <Link to="/contact-us">Contact Us</Link>
                     </li>
                   </ul>
                 </div>
