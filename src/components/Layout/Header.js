@@ -10,9 +10,9 @@ const Header = () => {
             <div className="row">
               <div className="col-sm-12">
                 <div className="mobile_menu_logo text-center">
-                  <a href="https://wp.ditsolution.net/payloan/" title="Payloan">
-                    <img alt="Payloan" />
-                  </a>
+                  <Link to="/" title="Payloan">
+                    <img src={logo} width={150} alt="Payloan" />
+                  </Link>
                 </div>
               </div>
             </div>
