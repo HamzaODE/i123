@@ -1,5 +1,6 @@
 import React from "react";
-
+import { Link } from "react-router-dom";
+import logo from "../../assets/images/insure-logo.png";
 const Header = () => {
   return (
     <>
@@ -10,10 +11,7 @@ const Header = () => {
               <div className="col-sm-12">
                 <div className="mobile_menu_logo text-center">
                   <a href="https://wp.ditsolution.net/payloan/" title="Payloan">
-                    <img
-                      src="https://wp.ditsolution.net/payloan/wp-content/uploads/2021/09/payloan-logo.png"
-                      alt="Payloan"
-                    />
+                    <img alt="Payloan" />
                   </a>
                 </div>
               </div>
@@ -27,12 +25,9 @@ const Header = () => {
               <div className="row logo-left align-items-center">
                 <div className="col-md-3 col-sm-3 col-xs-4">
                   <div className="logo">
-                    <a className="standard-logo" href="/" title="Payloan">
-                      <img
-                        src="https://wp.ditsolution.net/payloan/wp-content/uploads/2021/09/payloan-logo.png"
-                        alt="Payloan"
-                      />
-                    </a>
+                    <Link className="standard-logo" to="/" title="Payloan">
+                      <img src={logo} width={150} alt="Payloan" />
+                    </Link>
                     <a
                       className="retina-logo"
                       href="https://wp.ditsolution.net/payloan/"
@@ -52,27 +47,27 @@ const Header = () => {
                         id="menu-item-1160"
                         className="menu-item menu-item-object-page menu-item-home current-menu-item page-item-8 current_page_item current-menu-ancestor current-menu-parent current_page_parent current_page_ancestor menu-item-1160"
                       >
-                        <a href="/" aria-current="page">
+                        <Link to="/" aria-current="page">
                           Home
-                        </a>
+                        </Link>
                       </li>
                       <li
                         id="menu-item-1161"
                         className="menu-item menu-item-type-post_type menu-item-object-page menu-item-1161"
                       >
-                        <a href="/about">About</a>
+                        <Link to="/about">About</Link>
                       </li>
                       <li
                         id="menu-item-1184"
                         className="menu-item menu-item-type-post_type menu-item-object-page menu-item-1184"
                       >
-                        <a href="/services">Services</a>
+                        <Link to="/services">Services</Link>
                       </li>
                       <li
                         id="menu-item-1163"
                         className="menu-item menu-item-type-post_type menu-item-object-page menu-item-1163"
                       >
-                        <a href="/contact-us">Contact</a>
+                        <Link to="/contact-us">Contact</Link>
                       </li>
                     </ul>
                     {/* <div className="donate-btn-header">
@@ -106,18 +101,18 @@ const Header = () => {
                   style={{ display: "none" }}
                 >
                   <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-8 current_page_item current-menu-ancestor current-menu-parent current_page_parent current_page_ancestor menu-item-has-children menu-item-1160">
-                    <a href="/" aria-current="page">
+                    <Link to="/" aria-current="page">
                       Home
-                    </a>
+                    </Link>
                   </li>
                   <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-1161">
-                    <a href="/about">About</a>
+                    <Link to="/about">About</Link>
                   </li>
                   <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-1184">
-                    <a href="/services">Services</a>
+                    <Link to="/services">Services</Link>
                   </li>
                   <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-1163 mean-last">
-                    <a href="/contact-us">Contact</a>
+                    <Link to="/contact-us">Contact</Link>
                   </li>
                 </ul>
               </nav>
@@ -126,30 +121,30 @@ const Header = () => {
             <nav style={{ display: "none" }}>
               <ul id="menu-main-menu-1" className="main-menu clearfix">
                 <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-8 current_page_item current-menu-ancestor current-menu-parent current_page_parent current_page_ancestor menu-item-has-children menu-item-1160">
-                  <a
+                  <Link
                     href="https://wp.ditsolution.net/payloan/"
                     aria-current="page"
                   >
                     Home
-                  </a>
+                  </Link>
                 </li>
                 <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-1161">
-                  <a href="https://wp.ditsolution.net/payloan/about-us/">
+                  <Link to="https://wp.ditsolution.net/payloan/about-us/">
                     About
-                  </a>
+                  </Link>
                 </li>
                 <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-1184">
-                  <a href="https://wp.ditsolution.net/payloan/our-service/">
+                  <Link to="https://wp.ditsolution.net/payloan/our-service/">
                     Services
-                  </a>
+                  </Link>
                 </li>
                 <li className="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1170">
                   <a href="#">Pages</a>
                   <ul className="sub-menu">
                     <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-1171">
-                      <a href="https://wp.ditsolution.net/payloan/about-us/">
+                      <Link to="https://wp.ditsolution.net/payloan/about-us/">
                         About Us
-                      </a>
+                      </Link>
                     </li>
                     <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-1169">
                       <a href="https://wp.ditsolution.net/payloan/team-members/">
