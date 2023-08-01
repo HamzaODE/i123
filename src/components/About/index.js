@@ -1,6 +1,5 @@
 import React from "react";
 import Breadcrumb from "../../ui/Breadcrumb";
-// updated
 const About = () => {
   return (
     <>
