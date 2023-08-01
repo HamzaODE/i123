@@ -17,7 +17,6 @@ const Layout = () => {
             <div className="template-home-wrapper">
               <div className="page-content-home-page">
                 <Header />
-
                 <Outlet />
                 <Footer />
               </div>
