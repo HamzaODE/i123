@@ -852,21 +852,21 @@ const About = () => {
                         </div>
                       </div>
                       <section
-                        className="elementor-section elementor-inner-section elementor-element elementor-element-ccc3ce3 elementor-section-content-middle elementor-section-boxed elementor-section-height-default elementor-section-height-default"
-                        data-id="ccc3ce3"
+                        className="elementor-section elementor-inner-section elementor-element elementor-element-0a8f4ad elementor-section-content-middle elementor-section-boxed elementor-section-height-default elementor-section-height-default"
+                        data-id="0a8f4ad"
                         data-element_type="section"
                       >
                         <div className="elementor-container elementor-column-gap-default">
                           <div
-                            className="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-5586750"
-                            data-id="5586750"
+                            className="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-c1257f8"
+                            data-id="c1257f8"
                             data-element_type="column"
                             data-settings='{"background_background":"classic"}'
                           >
                             <div className="elementor-widget-wrap elementor-element-populated">
                               <div
-                                className="elementor-element elementor-element-0e132b2 elementor-widget elementor-widget-testimonial"
-                                data-id="0e132b2"
+                                className="elementor-element elementor-element-8b755f2 elementor-widget elementor-widget-testimonial"
+                                data-id="8b755f2"
                                 data-element_type="widget"
                                 data-widget_type="testimonial.default"
                               >
@@ -875,11 +875,14 @@ const About = () => {
                                     <div className="owl-stage-outer">
                                       <div
                                         className="owl-stage"
-                                        // style="transform: translate3d(-1000px, 0px, 0px); transition: all 0s ease 0s; width: 2500px;"
+                                        style={{
+                                          transform:
+                                            "translate3d(-1000px, 0px, 0px); transition: all 0s ease 0s; width: 2500px",
+                                        }}
                                       >
                                         <div
                                           className="owl-item cloned"
-                                          // style="width: 500px;"
+                                          style={{ width: "500px" }}
                                         >
                                           <div className="col-md-12">
                                             <div className="single_testimonial">
@@ -909,147 +912,6 @@ const About = () => {
                                             </div>
                                           </div>
                                         </div>
-                                        <div
-                                          className="owl-item cloned"
-                                          // style="width: 500px;"
-                                        >
-                                          <div className="col-md-12">
-                                            <div className="single_testimonial">
-                                              <div className="testi_thumb">
-                                                <img
-                                                  decoding="async"
-                                                  src="https://wp.dreamitsolution.net/payloan/wp-content/uploads/2021/09/5.png"
-                                                  alt=""
-                                                />
-                                              </div>
-
-                                              <div className="testi_content">
-                                                <div className="testi_text">
-                                                  From time time we need
-                                                  generate sample names to
-                                                  populate a test database
-                                                  usually just requiring first
-                                                  and last names address.{" "}
-                                                </div>
-                                              </div>
-                                              <div className="testi_title">
-                                                <h2>
-                                                  Evelyn Goodman
-                                                  <span>Founder</span>
-                                                </h2>
-                                              </div>
-                                            </div>
-                                          </div>
-                                        </div>
-                                        <div
-                                          className="owl-item active"
-                                          // style="width: 500px;"
-                                        >
-                                          <div className="col-md-12">
-                                            <div className="single_testimonial">
-                                              <div className="testi_thumb">
-                                                <img
-                                                  decoding="async"
-                                                  src="https://wp.dreamitsolution.net/payloan/wp-content/uploads/2021/09/5.png"
-                                                  alt=""
-                                                />
-                                              </div>
-
-                                              <div className="testi_content">
-                                                <div className="testi_text">
-                                                  From time time we need
-                                                  generate sample names to
-                                                  populate a test database
-                                                  usually just requiring first
-                                                  and last names address.{" "}
-                                                </div>
-                                              </div>
-                                              <div className="testi_title">
-                                                <h2>
-                                                  Evelyn Goodman
-                                                  <span>Founder</span>
-                                                </h2>
-                                              </div>
-                                            </div>
-                                          </div>
-                                        </div>
-                                        <div
-                                          className="owl-item cloned"
-                                          // style="width: 500px;"
-                                        >
-                                          <div className="col-md-12">
-                                            <div className="single_testimonial">
-                                              <div className="testi_thumb">
-                                                <img
-                                                  decoding="async"
-                                                  src="https://wp.dreamitsolution.net/payloan/wp-content/uploads/2021/09/5.png"
-                                                  alt=""
-                                                />
-                                              </div>
-
-                                              <div className="testi_content">
-                                                <div className="testi_text">
-                                                  From time time we need
-                                                  generate sample names to
-                                                  populate a test database
-                                                  usually just requiring first
-                                                  and last names address.{" "}
-                                                </div>
-                                              </div>
-                                              <div className="testi_title">
-                                                <h2>
-                                                  Evelyn Goodman
-                                                  <span>Founder</span>
-                                                </h2>
-                                              </div>
-                                            </div>
-                                          </div>
-                                        </div>
-                                        <div
-                                          className="owl-item cloned"
-                                          // style="width: 500px;"
-                                        >
-                                          <div className="col-md-12">
-                                            <div className="single_testimonial">
-                                              <div className="testi_thumb">
-                                                <img
-                                                  decoding="async"
-                                                  src="https://wp.dreamitsolution.net/payloan/wp-content/uploads/2021/09/5.png"
-                                                  alt=""
-                                                />
-                                              </div>
-
-                                              <div className="testi_content">
-                                                <div className="testi_text">
-                                                  From time time we need
-                                                  generate sample names to
-                                                  populate a test database
-                                                  usually just requiring first
-                                                  and last names address.{" "}
-                                                </div>
-                                              </div>
-                                              <div className="testi_title">
-                                                <h2>
-                                                  Evelyn Goodman
-                                                  <span>Founder</span>
-                                                </h2>
-                                              </div>
-                                            </div>
-                                          </div>
-                                        </div>
-                                      </div>
-                                    </div>
-                                    <div className="owl-nav disabled">
-                                      <div className="owl-prev">
-                                        <i className="flaticon-back-1"></i>
-                                      </div>
-                                      <div className="owl-next">
-                                        <i className="fa fa-angle-right"></i>
-                                      </div>
-                                    </div>
-                                    <div className="owl-dots disabled">
-                                      <div className="owl-dot active">
-                                        <span></span>
                                       </div>
                                     </div>
                                   </div>
@@ -1058,14 +920,14 @@ const About = () => {
                             </div>
                           </div>
                           <div
-                            className="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-b4c9c7d"
-                            data-id="b4c9c7d"
+                            className="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-a98502c"
+                            data-id="a98502c"
                             data-element_type="column"
                           >
                             <div className="elementor-widget-wrap elementor-element-populated">
                               <div
-                                className="elementor-element elementor-element-5c7b0dc elementor-widget elementor-widget-image"
-                                data-id="5c7b0dc"
+                                className="elementor-element elementor-element-4a658bb elementor-widget elementor-widget-image"
+                                data-id="4a658bb"
                                 data-element_type="widget"
                                 data-widget_type="image.default"
                               >

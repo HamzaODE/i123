@@ -27,11 +27,7 @@ const Header = () => {
               <div className="row logo-left align-items-center">
                 <div className="col-md-3 col-sm-3 col-xs-4">
                   <div className="logo">
-                    <a
-                      className="standard-logo"
-                      href="https://wp.ditsolution.net/payloan/"
-                      title="Payloan"
-                    >
+                    <a className="standard-logo" href="/" title="Payloan">
                       <img
                         src="https://wp.ditsolution.net/payloan/wp-content/uploads/2021/09/payloan-logo.png"
                         alt="Payloan"
@@ -54,7 +50,7 @@ const Header = () => {
                     <ul id="menu-main-menu" className="sub-menu">
                       <li
                         id="menu-item-1160"
-                        className="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-8 current_page_item current-menu-ancestor current-menu-parent current_page_parent current_page_ancestor menu-item-has-children menu-item-1160"
+                        className="menu-item menu-item-object-page menu-item-home current-menu-item page-item-8 current_page_item current-menu-ancestor current-menu-parent current_page_parent current_page_ancestor menu-item-1160"
                       >
                         <a href="/" aria-current="page">
                           Home
@@ -136,46 +132,6 @@ const Header = () => {
                   >
                     Home
                   </a>
-                  <ul className="sub-menu">
-                    <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-8 current_page_item menu-item-11">
-                      <a
-                        href="https://wp.ditsolution.net/payloan/"
-                        aria-current="page"
-                      >
-                        Demo – 01
-                      </a>
-                    </li>
-                    <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-1165">
-                      <a href="https://wp.ditsolution.net/payloan/home-2/">
-                        Demo – 02
-                      </a>
-                    </li>
-                    <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-1272">
-                      <a href="https://wp.ditsolution.net/payloan/home-new/">
-                        Demo – 03 (New)
-                      </a>
-                    </li>
-                    <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-1166">
-                      <a href="https://wp.ditsolution.net/payloan/home-3/">
-                        Demo – 04 (New)
-                      </a>
-                    </li>
-                    <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-1246">
-                      <a href="https://wp.ditsolution.net/payloan/slider-revolution/">
-                        Demo Slider Revolution
-                      </a>
-                    </li>
-                    <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-1963">
-                      <a href="https://wp.ditsolution.net/payloan/landing-page-demo/">
-                        Demo Landing Page
-                      </a>
-                    </li>
-                    <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-1235">
-                      <a href="https://wp.ditsolution.net/payloan/video-demo/">
-                        Demo Video Slider
-                      </a>
-                    </li>
-                  </ul>
                 </li>
                 <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-1161">
                   <a href="https://wp.ditsolution.net/payloan/about-us/">
