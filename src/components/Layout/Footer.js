@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import logo from "../../assets/images/insure-logo.png";
 const Footer = () => {
   return (
     <>
@@ -11,10 +12,7 @@ const Footer = () => {
                 <div className="about-footer">
                   <div className="footer-widget address">
                     <div className="footer-logo">
-                      <img
-                        src="http://wp.dreamitsolution.net/payloan/wp-content/uploads/2021/09/payloan-logo.png"
-                        alt=""
-                      />
+                      <img src={logo} width={150} alt="logo" />
 
                       <p>
                         Lorem ipsum dolor sit amet, consetur acing elit, sed do
