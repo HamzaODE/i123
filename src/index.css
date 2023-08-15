@@ -1,0 +1,30 @@
+.text-16 {
+  font-size: 16px;
+}
+
+.text-18 {
+  font-size: 18px !important;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.min-h-190 {
+  min-height: 190px !important;
+}
+
+@media only screen and (min-width: 600px) {
+  /*for screen greater than 600px*/
+  .min-h-190 {
+    height: 190px !important;
+  }
+}

@@ -13,11 +13,6 @@ const Footer = () => {
                   <div className="footer-widget address">
                     <div className="footer-logo">
                       <img src={logo} width={150} alt="logo" />
-
-                      <p>
-                        Lorem ipsum dolor sit amet, consetur acing elit, sed do
-                        eiusmod ligal
-                      </p>
                     </div>
                     <div className="footer-address">
                       <div className="footer_s_inner">
@@ -25,11 +20,7 @@ const Footer = () => {
                           <i className="fa fa-home"></i>
                         </div>
                         <div className="footer-sociala-info">
-                          <p>
-                            Address: 1245 Rang Raod,
-                            <br />
-                            medical, E152 95RB
-                          </p>
+                          <p>Address: 1494 Hamilton Ave, San Jose, CA</p>
                         </div>
                       </div>
                       <div className="footer_s_inner">
@@ -37,11 +28,7 @@ const Footer = () => {
                           <i className="fa fa-phone"></i>
                         </div>
                         <div className="footer-sociala-info">
-                          <p>
-                            Telephone : 88 694 895 684
-                            <br />
-                            88 487 983 576
-                          </p>
+                          <p>Telephone : 408-286-111</p>
                         </div>
                       </div>
 
@@ -50,7 +37,7 @@ const Footer = () => {
                           <i className="fa fa-globe"></i>
                         </div>
                         <div className="footer-sociala-info">
-                          <p>Email: example@gmail.com</p>
+                          <p>Email: info@insure123.com</p>
                         </div>
                       </div>
                     </div>

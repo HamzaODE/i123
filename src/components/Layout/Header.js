@@ -1,7 +1,24 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import logo from "../../assets/images/insure-logo.png";
 const Header = () => {
+  const [backgroundColor, setBackgroundColor] = useState("transparent");
+
+  useEffect(() => {
+    const handleScroll = () => {
+      // Calculate the scroll position and define color logic here
+      const scrollY = window.scrollY;
+      const newBackgroundColor = scrollY > 100 ? "white" : "transparent";
+
+      setBackgroundColor(newBackgroundColor);
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
   return (
     <>
       <div className="em40_header_area_main">
@@ -20,7 +37,10 @@ const Header = () => {
         </div>
 
         <div className="payloan-main-menu d-md-none d-lg-block d-sm-none d-none transprent-menu">
-          <div className="trp_nav_area">
+          <div
+            className="trp_nav_area"
+            style={{ backgroundColor: backgroundColor }}
+          >
             <div className="container">
               <div className="row logo-left align-items-center">
                 <div className="col-md-3 col-sm-3 col-xs-4">

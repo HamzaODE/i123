@@ -31,20 +31,19 @@ const Home = () => {
                             <div className="text-area">
                               <div className="title">
                                 <h2>
-                                  The right <span>decision</span>
+                                  Peace of mind
                                   <br />
-                                  at the right time.
+                                  <span>One policy at a time</span>
                                 </h2>
                               </div>
                               <div className="description">
                                 <p>
-                                  We are here to help you when you need your
-                                  financial support, then we are help you.
+                                  We’re simplifying the way people buy insurance
                                 </p>
                               </div>
 
                               <div className="hero-button">
-                                <a href="">Read More</a>
+                                <a href="">Learn More</a>
                               </div>
                             </div>
                           </div>
@@ -122,26 +121,20 @@ const Home = () => {
                                                   <i className="flaticon flaticon-team-1"></i>
                                                 </span>
                                               </div>
-
-                                              <div className="front-parcent">
-                                                <h3>10.2%</h3>
-                                              </div>
                                             </div>
 
                                             <div className="front-title-part">
                                               <h2 className="front-title">
-                                                Business Loan
+                                                Business
                                               </h2>
                                             </div>
 
                                             <div className="front-desc-part">
                                               <p className="front-desc">
-                                                Stay turned into the world o
-                                                finance &amp; business.
+                                                Business Liability, Group
+                                                Benefits, Workers Comp, Cyber
+                                                Liability, EPLI, Umbrella
                                               </p>
-                                            </div>
-                                            <div className="front-inst-fee">
-                                              <h5>20 months instalment</h5>
                                             </div>
                                           </div>
                                         </div>
@@ -155,26 +148,20 @@ const Home = () => {
                                                   <i className="flaticon flaticon-team-1"></i>
                                                 </span>
                                               </div>
-
-                                              <div className="back-parcent">
-                                                <h3>10.5%</h3>
-                                              </div>
                                             </div>
 
                                             <div className="back-title-part">
                                               <h2 className="back-title">
-                                                Personal Loan
+                                                Business
                                               </h2>
                                             </div>
 
                                             <div className="back-desc-part">
                                               <p className="back-desc">
-                                                Stay turned into the world of
-                                                finance &amp; business.
+                                                Business Liability, Group
+                                                Benefits, Workers Comp, Cyber
+                                                Liability, EPLI, Umbrella
                                               </p>
-                                            </div>
-                                            <div className="back-inst-fee">
-                                              <h5>20 months instalment</h5>
                                             </div>
                                           </div>
                                         </div>
@@ -210,26 +197,19 @@ const Home = () => {
                                                   <i className="flaticon flaticon-support"></i>
                                                 </span>
                                               </div>
-
-                                              <div className="front-parcent">
-                                                <h3>9.35%</h3>
-                                              </div>
                                             </div>
 
                                             <div className="front-title-part">
                                               <h2 className="front-title">
-                                                Personal Loan
+                                                Personal
                                               </h2>
                                             </div>
 
                                             <div className="front-desc-part">
                                               <p className="front-desc">
-                                                Stay turned into the world o
-                                                finance &amp; business.
+                                                Auto, Home, Life, Medical,
+                                                Umbrella
                                               </p>
-                                            </div>
-                                            <div className="front-inst-fee">
-                                              <h5>20 months instalment</h5>
                                             </div>
                                           </div>
                                         </div>
@@ -243,26 +223,19 @@ const Home = () => {
                                                   <i className="flaticon flaticon-support"></i>
                                                 </span>
                                               </div>
-
-                                              <div className="back-parcent">
-                                                <h3>9.35%</h3>
-                                              </div>
                                             </div>
 
                                             <div className="back-title-part">
                                               <h2 className="back-title">
-                                                Personal Loan
+                                                Personal
                                               </h2>
                                             </div>
 
                                             <div className="back-desc-part">
                                               <p className="back-desc">
-                                                Stay turned into the world of
-                                                finance &amp; business.
+                                                Auto, Home, Life, Medical,
+                                                Umbrella
                                               </p>
-                                            </div>
-                                            <div className="back-inst-fee">
-                                              <h5>20 months instalment</h5>
                                             </div>
                                           </div>
                                         </div>
@@ -290,26 +263,21 @@ const Home = () => {
                                                   <i className="flaticon flaticon-money-2"></i>
                                                 </span>
                                               </div>
-
-                                              <div className="front-parcent">
-                                                <h3>28.3%</h3>
-                                              </div>
                                             </div>
 
                                             <div className="front-title-part">
                                               <h2 className="front-title">
-                                                Education Loan
+                                                Event & Specialty
                                               </h2>
                                             </div>
 
                                             <div className="front-desc-part">
                                               <p className="front-desc">
-                                                Stay turned into the world o
-                                                finance &amp; business.
+                                                Weddings, Birthdays, Concerts,
+                                                Festivals, Conferences,
+                                                Cannabis, Trucking, Travel
+                                                Medical
                                               </p>
-                                            </div>
-                                            <div className="front-inst-fee">
-                                              <h5>20 months instalment</h5>
                                             </div>
                                           </div>
                                         </div>
@@ -322,26 +290,21 @@ const Home = () => {
                                                   <i className="flaticon flaticon-money-2"></i>
                                                 </span>
                                               </div>
-
-                                              <div className="back-parcent">
-                                                <h3>28.0%</h3>
-                                              </div>
                                             </div>
 
                                             <div className="back-title-part">
                                               <h2 className="back-title">
-                                                Education Loan
+                                                Event & Specialty
                                               </h2>
                                             </div>
 
                                             <div className="back-desc-part">
                                               <p className="back-desc">
-                                                Stay turned into the world of
-                                                finance &amp; business.
+                                                Weddings, Birthdays, Concerts,
+                                                Festivals, Conferences,
+                                                Cannabis, Trucking, Travel
+                                                Medical
                                               </p>
-                                            </div>
-                                            <div className="back-inst-fee">
-                                              <h5>20 months instalment</h5>
                                             </div>
                                           </div>
                                         </div>
@@ -371,13 +334,8 @@ const Home = () => {
                         <div className="elementor-widget-container">
                           <div className="">
                             <div className="section-title t_left">
-                              <h5>Service We Provide</h5>
-
-                              <h3>We provide awesome</h3>
-
-                              <h2>
-                                services, it’s here.<span></span>
-                              </h2>
+                              <h5>Insurance We Provide</h5>
+                              <h3>We provide awesome policies</h3>
                               <div className="bar-main">
                                 <div className="bar bar-big"></div>
                               </div>
@@ -393,23 +351,8 @@ const Home = () => {
                       >
                         <div className="elementor-widget-container">
                           <p>
-                            We are here to help you when you need your financial
-                            support, then we are help you.
-                          </p>
-                        </div>
-                      </div>
-                      <div
-                        className="elementor-element elementor-element-4f43ade elementor-widget elementor-widget-text-editor"
-                        data-id="4f43ade"
-                        data-element_type="widget"
-                        data-widget_type="text-editor.default"
-                      >
-                        <div className="elementor-widget-container">
-                          <p>
-                            There are many variations of passages of Lorem Ipsum
-                            available, but the majority have suffered alteration
-                            in a some form, by injected humour, or randomised
-                            words is which don’t look even slightly believable.
+                            When life takes unexpected turns, rest assured,
+                            we’ve got you covered
                           </p>
                         </div>
                       </div>
@@ -476,11 +419,9 @@ const Home = () => {
                         <div className="elementor-widget-container">
                           <div className="">
                             <div className="section-title t_left">
-                              <h3>Manager will contact</h3>
-
-                              <h2>
-                                you to clear the details.<span></span>
-                              </h2>
+                              <h3>
+                                We’re here to understand your coverage needs
+                              </h3>
                               <div className="bar-main">
                                 <div className="bar bar-big"></div>
                               </div>
@@ -496,23 +437,10 @@ const Home = () => {
                       >
                         <div className="elementor-widget-container">
                           <p>
-                            We are here to help you when you need your financial
-                            support, then we are help you.
-                          </p>
-                        </div>
-                      </div>
-                      <div
-                        className="elementor-element elementor-element-cdf959a elementor-widget elementor-widget-text-editor"
-                        data-id="cdf959a"
-                        data-element_type="widget"
-                        data-widget_type="text-editor.default"
-                      >
-                        <div className="elementor-widget-container">
-                          <p>
-                            There are many variations of passages of Lorem Ipsum
-                            available, but the majority have suffered alteration
-                            in a some form, by injected humour, or randomised
-                            words is which don’t look even slightly believable.
+                            Our top notch insurance experts are here to help you
+                            get the right policy and answer all your questions.
+                            Give us a call, shoot us an email, or check out our
+                            definitions and most common FAQ’s!
                           </p>
                         </div>
                       </div>
@@ -598,18 +526,14 @@ const Home = () => {
                 <div className="elementor-widget-container">
                   <div className="">
                     <div className="section-title t_center">
-                      <h3>Our manager will contact</h3>
-
-                      <h2>
-                        you to clear the details.<span></span>
-                      </h2>
+                      <h3>Get your quote in minutes!</h3>
                       <div className="bar-main">
                         <div className="bar bar-big"></div>
                       </div>
 
                       <p>
-                        We are here to help you when you need your financial
-                        support, then we are help you.
+                        Get personalized insurance quotes tailored to your needs
+                        with our quick and hassle-free quote process.
                       </p>
                     </div>
                   </div>
@@ -644,15 +568,15 @@ const Home = () => {
                                     </div>
 
                                     <div className="front-title-part">
-                                      <h2 className="front-title">
-                                        Apply Bank Loan
+                                      <h2 className="text-18 front-title">
+                                        Answer a few questions
                                       </h2>
                                     </div>
 
                                     <div className="front-desc-part">
-                                      <p className="front-desc">
-                                        We are provide best services and
-                                        finaancial solution for you.
+                                      <p className="front-desc text-16">
+                                        Help us collect a few details to better
+                                        understand you
                                       </p>
                                     </div>
                                   </div>
@@ -666,15 +590,15 @@ const Home = () => {
                                     </div>
 
                                     <div className="back-title-part">
-                                      <h2 className="back-title">
-                                        Apply Bank Loan
+                                      <h2 className="text-18 back-title">
+                                        Answer a few questions
                                       </h2>
                                     </div>
 
                                     <div className="back-desc-part">
-                                      <p className="back-desc">
-                                        We are provide best services and
-                                        finaancial solution for you.
+                                      <p className="back-desc text-16">
+                                        Help us collect a few details to better
+                                        understand you.
                                       </p>
                                     </div>
                                   </div>
@@ -709,15 +633,16 @@ const Home = () => {
                                     </div>
 
                                     <div className="front-title-part">
-                                      <h2 className="front-title">
-                                        Review Your Loan
+                                      <h2 className="text-18 front-title">
+                                        We’ll review your information
                                       </h2>
                                     </div>
 
                                     <div className="front-desc-part">
-                                      <p className="front-desc">
-                                        We are provide best services and
-                                        finaancial solution for you.
+                                      <p className="front-desc text-16">
+                                        Our team will review your information to
+                                        determine which policy and rates are
+                                        best for you
                                       </p>
                                     </div>
                                   </div>
@@ -731,15 +656,16 @@ const Home = () => {
                                     </div>
 
                                     <div className="back-title-part">
-                                      <h2 className="back-title">
-                                        Review Your Loan
+                                      <h2 className="text-18 back-title">
+                                        We’ll review your information
                                       </h2>
                                     </div>
 
                                     <div className="back-desc-part">
-                                      <p className="back-desc">
-                                        We are provide best services and
-                                        finaancial solution for you.
+                                      <p className="back-desc text-16">
+                                        Our team will review your information to
+                                        determine which policy and rates are
+                                        best for you
                                       </p>
                                     </div>
                                   </div>
@@ -774,15 +700,14 @@ const Home = () => {
                                     </div>
 
                                     <div className="front-title-part">
-                                      <h2 className="front-title">
-                                        Approved Bank Loan
+                                      <h2 className="text-18 front-title ">
+                                        An Insure123 agent will contact you
                                       </h2>
                                     </div>
 
                                     <div className="front-desc-part">
-                                      <p className="front-desc">
-                                        We are provide best services and
-                                        finaancial solution for you.
+                                      <p className="front-desc text-16">
+                                        Connect with our agent to learn more
                                       </p>
                                     </div>
                                   </div>
@@ -796,15 +721,14 @@ const Home = () => {
                                     </div>
 
                                     <div className="back-title-part">
-                                      <h2 className="back-title">
-                                        Approved Bank Loan
+                                      <h2 className="text-18 back-title text-16">
+                                        An Insure123 agent will contact you
                                       </h2>
                                     </div>
 
                                     <div className="back-desc-part">
-                                      <p className="back-desc">
-                                        We are provide best services and
-                                        finaancial solution for you.
+                                      <p className="back-desc text-16">
+                                        Connect with our agent to learn more
                                       </p>
                                     </div>
                                   </div>
@@ -843,18 +767,14 @@ const Home = () => {
                 <div className="elementor-widget-container">
                   <div className="">
                     <div className="section-title t_center">
-                      <h3>Our manager will contact</h3>
-
-                      <h2>
-                        you to clear the details.<span></span>
-                      </h2>
+                      <h3>Have questions? Talk to our agents!</h3>
                       <div className="bar-main">
                         <div className="bar bar-big"></div>
                       </div>
 
                       <p>
-                        We are here to help you when you need your financial
-                        support, then we are help you.
+                        Discover simple, seamless and secure insurance solutions
+                        with our dedicated team
                       </p>
                     </div>
                   </div>
@@ -952,7 +872,7 @@ const Home = () => {
                                                 className="wpcf7-form-control wpcf7-text wpcf7-validates-as-required form-control"
                                                 aria-required="true"
                                                 aria-invalid="false"
-                                                placeholder="Amount"
+                                                placeholder="First Name"
                                                 value=""
                                                 type="text"
                                                 name="sub"
@@ -973,7 +893,7 @@ const Home = () => {
                                                 className="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email form-control"
                                                 aria-required="true"
                                                 aria-invalid="false"
-                                                placeholder="Long Of Month"
+                                                placeholder="Last Name"
                                                 value=""
                                                 type="email"
                                                 name="sub2"
@@ -994,7 +914,7 @@ const Home = () => {
                                                 className="wpcf7-form-control wpcf7-text wpcf7-validates-as-required form-control"
                                                 aria-required="true"
                                                 aria-invalid="false"
-                                                placeholder="Instalment Amount"
+                                                placeholder="Email"
                                                 value=""
                                                 type="text"
                                                 name="sub3"
@@ -1010,7 +930,7 @@ const Home = () => {
                                               <input
                                                 className="wpcf7-form-control has-spinner wpcf7-submit button"
                                                 type="submit"
-                                                value="Apply Now"
+                                                value="Submit"
                                               />
                                               <span className="wpcf7-spinner"></span>
                                             </p>
@@ -1065,8 +985,8 @@ const Home = () => {
                       </div>
 
                       <p>
-                        We are here to help you when you need your financial
-                        support, then we are help you.
+                        Rest easy knowing our experienced team will guide you to
+                        the best insurance choices
                       </p>
                     </div>
                   </div>
@@ -1115,12 +1035,10 @@ const Home = () => {
                                         className="pointer-events"
                                         href="#rs_popupBox_2425568"
                                       >
-                                        Roxanne Bryant
+                                        Zain Jeewanjee
                                       </a>
                                     </h3>
-                                    <span className="team-title">
-                                      Managing Director
-                                    </span>
+                                    <span className="team-title">CEO</span>
                                   </div>
 
                                   <div className="social-icons">
@@ -1181,11 +1099,11 @@ const Home = () => {
                                         className="pointer-events"
                                         href="#rs_popupBox_1664032"
                                       >
-                                        Dominic Jefferson
+                                        Zainab Rehman
                                       </a>
                                     </h3>
                                     <span className="team-title">
-                                      Head of Marketing
+                                      Director Benefits
                                     </span>
                                   </div>
 
@@ -1247,11 +1165,11 @@ const Home = () => {
                                         className="pointer-events"
                                         href="#rs_popupBox_818545"
                                       >
-                                        Mercedes Baldwin
+                                        Ali Raza
                                       </a>
                                     </h3>
                                     <span className="team-title">
-                                      General Manager
+                                      Manager Commercial
                                     </span>
                                   </div>
 
@@ -1313,11 +1231,11 @@ const Home = () => {
                                         className="pointer-events"
                                         href="#rs_popupBox_3528022"
                                       >
-                                        Gertrude Keller
+                                        Saleem Kazmi
                                       </a>
                                     </h3>
                                     <span className="team-title">
-                                      Commercial Manager
+                                      Head of Finance
                                     </span>
                                   </div>
 
@@ -1370,18 +1288,14 @@ const Home = () => {
                 <div className="elementor-widget-container">
                   <div className="">
                     <div className="section-title t_center">
-                      <h3>How to say our most</h3>
-
-                      <h2>
-                        honorable customer<span></span>
-                      </h2>
+                      <h3>What Our Clients Are Saying</h3>
                       <div className="bar-main">
                         <div className="bar bar-big"></div>
                       </div>
 
                       <p>
-                        We are here to help you when you need your financial
-                        support, then we are help you.
+                        When life takes unexpected turns, rest assured we’ve got
+                        you fully covered.
                       </p>
                     </div>
                   </div>
@@ -1431,17 +1345,19 @@ const Home = () => {
                                       </div>
 
                                       <div className="testi_content">
-                                        <div className="testi_text">
-                                          From time time we need generate sample
-                                          names to populate a test database
-                                          usually just requiring first and last
-                                          names address.{" "}
+                                        <div className="text-18 testi_text">
+                                          Zain is amazing! They've been the 'go
+                                          to' company for our nonprofits
+                                          insurance needs for years. Not only
+                                          fast and helpful but they always give
+                                          the most options in terms of price and
+                                          individualized coverage. I can't
+                                          imagine going anywhere else. Try them
+                                          first; you wont be dissapointed!!
                                         </div>
                                       </div>
                                       <div className="testi_title">
-                                        <h2>
-                                          Evelyn Goodman<span>Founder</span>
-                                        </h2>
+                                        <h2>Dan Paz</h2>
                                       </div>
                                     </div>
                                   </div>
@@ -1487,7 +1403,7 @@ const Home = () => {
           </div>
         </div>
       </section>
-      <section
+      {/* <section
         className="elementor-section elementor-top-section elementor-element elementor-element-211c31c elementor-section-boxed elementor-section-height-default elementor-section-height-default"
         data-id="211c31c"
         data-element_type="section"
@@ -1516,8 +1432,8 @@ const Home = () => {
                       </div>
 
                       <p>
-                        We are here to help you when you need your financial
-                        support, then we are help you.
+                        With coverage that genuinely cares, we always put you
+                        and your needs first
                       </p>
                     </div>
                   </div>
@@ -1690,7 +1606,7 @@ const Home = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
     </>
   );
 };

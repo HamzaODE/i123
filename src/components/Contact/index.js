@@ -26,6 +26,13 @@ const Contact = () => {
                     data-element_type="column"
                   >
                     <div className="elementor-widget-wrap elementor-element-populated">
+                      <p>
+                        Thank you for your interest in Jeewanjee Insurance.
+                        Please call our toll free number 1-408-286-1111 ext 106
+                        or use the form below to submit your question to us. All
+                        inquiries are important to us, and well respond with the
+                        information you've requested immediately.
+                      </p>
                       <section
                         className="elementor-section elementor-inner-section elementor-element elementor-element-5074ed9 elementor-section-boxed elementor-section-height-default elementor-section-height-default"
                         data-id="5074ed9"
@@ -222,7 +229,7 @@ const Contact = () => {
                                                         rows="10"
                                                         className="wpcf7-form-control wpcf7-textarea"
                                                         aria-invalid="false"
-                                                        placeholder="Your Message"
+                                                        placeholder="Your Message - Please specify regarding which type of insurance"
                                                         name="class:form-control"
                                                       ></textarea>
                                                     </span>
@@ -306,7 +313,7 @@ const Contact = () => {
                                 data-widget_type="feature.default"
                               >
                                 <div className="elementor-widget-container">
-                                  <div className="feature-box style-seven ">
+                                  <div className="feature-box style-seven min-h-190">
                                     <div className="feature-box-icon">
                                       <span>
                                         <i className="flaticon flaticon-support-3 restly-flaticon"></i>
@@ -315,11 +322,18 @@ const Contact = () => {
 
                                     <div className="feature-box-content">
                                       <div className="feature-box-title">
-                                        <h2>Call Anytime</h2>
+                                        <h2>Contact Anytime</h2>
                                       </div>
 
                                       <div className="feature-box-desc">
-                                        <p>+088 6765 7654 23</p>
+                                        <p className="text-16">
+                                          +088 6765 7654 23
+                                        </p>
+                                      </div>
+                                      <div className="feature-box-desc">
+                                        <p className="text-16">
+                                          info@insure123@gmail.com
+                                        </p>
                                       </div>
                                     </div>
                                     <div className="feature-icon bottom">
@@ -345,7 +359,7 @@ const Contact = () => {
                                 data-widget_type="feature.default"
                               >
                                 <div className="elementor-widget-container">
-                                  <div className="feature-box style-seven ">
+                                  <div className="feature-box style-seven min-h-190">
                                     <div className="feature-box-icon">
                                       <span>
                                         <i className="flaticon flaticon-gmail-3 restly-flaticon"></i>
@@ -354,11 +368,11 @@ const Contact = () => {
 
                                     <div className="feature-box-content">
                                       <div className="feature-box-title">
-                                        <h2>Write Email</h2>
+                                        <h2>Book a meeting with Zain</h2>
                                       </div>
 
                                       <div className="feature-box-desc">
-                                        <p>example@gmail.com</p>
+                                        <p>Zain's Calendar</p>
                                       </div>
                                     </div>
                                     <div className="feature-icon bottom">
@@ -384,7 +398,7 @@ const Contact = () => {
                                 data-widget_type="feature.default"
                               >
                                 <div className="elementor-widget-container">
-                                  <div className="feature-box style-seven ">
+                                  <div className="feature-box style-seven min-h-190">
                                     <div className="feature-box-icon">
                                       <span>
                                         <i className="flaticon flaticon-world restly-flaticon"></i>
@@ -397,7 +411,7 @@ const Contact = () => {
                                       </div>
 
                                       <div className="feature-box-desc">
-                                        <p>Dhaka, Bangladesh</p>
+                                        <p>San Jose, California</p>
                                       </div>
                                     </div>
                                     <div className="feature-icon bottom">

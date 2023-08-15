@@ -74,53 +74,28 @@ const About = () => {
                                 <div className="elementor-widget-container">
                                   <div className="">
                                     <div className="section-title t_left">
-                                      <h3>Why we are starting our company?</h3>
+                                      <h3>Who we are?</h3>
 
                                       <div className="bar-main">
                                         <div className="bar bar-big"></div>
                                       </div>
 
                                       <p>
-                                        We are here to help you when you need
-                                        your financial support, then we are help
-                                        you.
+                                        Operating as an independent insurance
+                                        broker serving businesses here in
+                                        California for over two decades, the
+                                        agency was founded by entrepreneur Zain
+                                        Jeewanjee after discovering a void in
+                                        the industry’s understanding of the
+                                        demanding needs of Silicon Valley
+                                        start-ups. With the region’s tremendous
+                                        growth over the last 15 years, we have
+                                        seen equal growth, both in clientele and
+                                        revenues, becoming a genuine insurance
+                                        leader throughout the region.
                                       </p>
                                     </div>
                                   </div>
-                                </div>
-                              </div>
-                              <div
-                                className="elementor-element elementor-element-888909d elementor-widget elementor-widget-text-editor"
-                                data-id="888909d"
-                                data-element_type="widget"
-                                data-widget_type="text-editor.default"
-                              >
-                                <div className="elementor-widget-container">
-                                  <p>
-                                    We all know how hard it can be to make a
-                                    site look like the demo, so to make your
-                                    start into the world of as easy as possible
-                                    have included the demo content from showcase
-                                    site. Simply import the sample files we ship
-                                    with the theme and the core structure for
-                                    your site is already built mind that even if
-                                    you don’t use the demo content,.
-                                  </p>{" "}
-                                </div>
-                              </div>
-                              <div
-                                className="elementor-element elementor-element-104dd33 elementor-widget elementor-widget-text-editor"
-                                data-id="104dd33"
-                                data-element_type="widget"
-                                data-widget_type="text-editor.default"
-                              >
-                                <div className="elementor-widget-container">
-                                  <p>
-                                    We all know how hard it can be to make a
-                                    site look like the demo, so to make your
-                                    start into the world of as easy as possible
-                                    have included the demo content.
-                                  </p>{" "}
                                 </div>
                               </div>
                             </div>
@@ -164,58 +139,29 @@ const About = () => {
                                 <div className="elementor-widget-container">
                                   <div className="">
                                     <div className="section-title t_left">
-                                      <h3>
-                                        We are leading pay loan financial
-                                        company.
-                                      </h3>
+                                      <h3>San Jose Business Journal</h3>
 
                                       <div className="bar-main">
                                         <div className="bar bar-big"></div>
                                       </div>
 
                                       <p>
-                                        We are here to help you when you need
-                                        your financial support, then we are help
-                                        you.
+                                        The core idea that Zain Jeewanjee had
+                                        many years ago about filling a unique
+                                        need for emerging business remains
+                                        central to the agency’s vision today.
+                                        One of the first to implement virtual
+                                        customer service, Jeewanjee Insurance is
+                                        a true pioneer in the insurance
+                                        industry. Balanced with this
+                                        groundbreaking mindset is a foundation
+                                        of dealing with major insurance carriers
+                                        and providing an old-fashioned,
+                                        personalized level of service and care
+                                        to their clients.
                                       </p>
                                     </div>
                                   </div>
-                                </div>
-                              </div>
-                              <div
-                                className="elementor-element elementor-element-484d3f8 elementor-widget elementor-widget-text-editor"
-                                data-id="484d3f8"
-                                data-element_type="widget"
-                                data-widget_type="text-editor.default"
-                              >
-                                <div className="elementor-widget-container">
-                                  <p>
-                                    <a href="https://webtend.net/demo/html/payonta/about.html#">
-                                      We all know how hard it can be to make a
-                                      site look like the demo, so to make your
-                                      start into the world of as easy as
-                                      possible have included the demo content.
-                                    </a>
-                                  </p>{" "}
-                                </div>
-                              </div>
-                              <div
-                                className="elementor-element elementor-element-4a140ab elementor-widget elementor-widget-text-editor"
-                                data-id="4a140ab"
-                                data-element_type="widget"
-                                data-widget_type="text-editor.default"
-                              >
-                                <div className="elementor-widget-container">
-                                  <p>
-                                    We all know how hard it can be to make a
-                                    site look like the demo, so to make your
-                                    start into the world of as easy as possible
-                                    have included the demo content from showcase
-                                    site. Simply import the sample files we ship
-                                    with the theme and the core structure for
-                                    your site is already built mind that even if
-                                    you don’t use the demo content,.
-                                  </p>{" "}
                                 </div>
                               </div>
                             </div>
@@ -275,18 +221,14 @@ const About = () => {
                         <div className="elementor-widget-container">
                           <div className="">
                             <div className="section-title t_center">
-                              <h3>We have 25 years experienced </h3>
-
-                              <h2>
-                                see our company history<span></span>
-                              </h2>
+                              <h3>We have 25 years of insurance experience </h3>
                               <div className="bar-main">
                                 <div className="bar bar-big"></div>
                               </div>
 
                               <p>
-                                We are here to help you when you need your
-                                financial support, then we are help you.
+                                meeting countless business and personal
+                                insurance needs
                               </p>
                             </div>
                           </div>
@@ -297,7 +239,7 @@ const About = () => {
                         data-id="22666d9"
                         data-element_type="section"
                       >
-                        <div className="elementor-container elementor-column-gap-default">
+                        <div className="elementor-container elementor-column-gap-default flex flex-wrap justify-center">
                           <div
                             className="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-bdb1ea7"
                             data-id="bdb1ea7"
@@ -318,17 +260,20 @@ const About = () => {
                                           <div className="front-content-part">
                                             <div className="front-title-part">
                                               <h2 className="front-title">
-                                                2010 to 2013
+                                                Enrollment
                                               </h2>
                                             </div>
 
                                             <div className="front-desc-part">
-                                              <p className="front-desc">
-                                                We all know how hard it can be
-                                                to make your start into the
-                                                world of as easy possible.We all
-                                                know how hard it can be to as
-                                                easy possible.
+                                              <p className="front-desc text-16">
+                                                Following a comprehensive
+                                                employee presentation, each
+                                                employee receives their own
+                                                pre-filled application, needing
+                                                only sign their name.
+                                                Pre-printed identification cards
+                                                are distributed, providing
+                                                coverage immediately.
                                               </p>
                                             </div>
                                           </div>
@@ -339,19 +284,20 @@ const About = () => {
                                           <div className="back-content-part">
                                             <div className="back-title-part">
                                               <h2 className="back-title">
-                                                2010 to 2013
+                                                Enrollment
                                               </h2>
                                             </div>
 
                                             <div className="back-desc-part">
-                                              <p className="back-desc">
-                                                We all know how hard it can be
-                                                to make site look like the demo
-                                                so to make your start into the
-                                                world of as easy possible. We
-                                                all know how hard it can be to
-                                                make site look like the demo so
-                                                to make your start into.
+                                              <p className="back-desc text-16">
+                                                Following a comprehensive
+                                                employee presentation, each
+                                                employee receives their own
+                                                pre-filled application, needing
+                                                only sign their name.
+                                                Pre-printed identification cards
+                                                are distributed, providing
+                                                coverage immediately.
                                               </p>
                                             </div>
                                           </div>
@@ -383,17 +329,20 @@ const About = () => {
                                           <div className="front-content-part">
                                             <div className="front-title-part">
                                               <h2 className="front-title">
-                                                2014 to 2016
+                                                Account Management
                                               </h2>
                                             </div>
 
                                             <div className="front-desc-part">
-                                              <p className="front-desc">
-                                                We all know how hard it can be
-                                                to make your start into the
-                                                world of as easy possible.We all
-                                                know how hard it can be to as
-                                                easy possible.
+                                              <p className="front-desc text-16">
+                                                Jeewanjee Insurance handles
+                                                transitions from old plans,
+                                                deals with administrative
+                                                issues, and solves common
+                                                medical benefit management
+                                                problems, even consolidating
+                                                billing to reduce accounting
+                                                burdens.
                                               </p>
                                             </div>
                                           </div>
@@ -404,19 +353,20 @@ const About = () => {
                                           <div className="back-content-part">
                                             <div className="back-title-part">
                                               <h2 className="back-title">
-                                                2014 to 2016
+                                                Account Management
                                               </h2>
                                             </div>
 
                                             <div className="back-desc-part">
-                                              <p className="back-desc">
-                                                We all know how hard it can be
-                                                to make site look like the demo
-                                                so to make your start into the
-                                                world of as easy possible. We
-                                                all know how hard it can be to
-                                                make site look like the demo so
-                                                to make your start into.
+                                              <p className="back-desc text-16">
+                                                Jeewanjee Insurance handles
+                                                transitions from old plans,
+                                                deals with administrative
+                                                issues, and solves common
+                                                medical benefit management
+                                                problems, even consolidating
+                                                billing to reduce accounting
+                                                burdens.
                                               </p>
                                             </div>
                                           </div>
@@ -448,17 +398,19 @@ const About = () => {
                                           <div className="front-content-part">
                                             <div className="front-title-part">
                                               <h2 className="front-title">
-                                                2017 to 2019
+                                                Renewal
                                               </h2>
                                             </div>
 
                                             <div className="front-desc-part">
-                                              <p className="front-desc">
-                                                We all know how hard it can be
-                                                to make your start into the
-                                                world of as easy possible.We all
-                                                know how hard it can be to as
-                                                easy possible.
+                                              <p className="front-desc text-16">
+                                                 Each client’s previous year
+                                                plan performance is evaluated
+                                                prior to renewal, and the Agency
+                                                clearly lists new options
+                                                available, even going so far as
+                                                to solicit employee-input to
+                                                best evaluate their success.
                                               </p>
                                             </div>
                                           </div>
@@ -469,19 +421,151 @@ const About = () => {
                                           <div className="back-content-part">
                                             <div className="back-title-part">
                                               <h2 className="back-title">
-                                                2017 to 2019
+                                                Renewal
                                               </h2>
                                             </div>
 
                                             <div className="back-desc-part">
-                                              <p className="back-desc">
-                                                We all know how hard it can be
-                                                to make site look like the demo
-                                                so to make your start into the
-                                                world of as easy possible. We
-                                                all know how hard it can be to
-                                                make site look like the demo so
-                                                to make your start into.
+                                              <p className="back-desc text-16">
+                                                 Each client’s previous year
+                                                plan performance is evaluated
+                                                prior to renewal, and the Agency
+                                                clearly lists new options
+                                                available, even going so far as
+                                                to solicit employee-input to
+                                                best evaluate their success.
+                                              </p>
+                                            </div>
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div
+                            className="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-06493c7"
+                            data-id="06493c7"
+                            data-element_type="column"
+                          >
+                            <div className="elementor-widget-wrap elementor-element-populated">
+                              <div
+                                className="elementor-element elementor-element-6b5f5d5 elementor-widget elementor-widget-flipbox"
+                                data-id="6b5f5d5"
+                                data-element_type="widget"
+                                data-widget_type="flipbox.default"
+                              >
+                                <div className="elementor-widget-container">
+                                  <div className="flip-box style-two">
+                                    <div className="flip-box-inner rs-flip-right">
+                                      <div className="flip-box-wrap">
+                                        <div className="front-part">
+                                          <div className="front-content-part">
+                                            <div className="front-title-part">
+                                              <h2 className="front-title">
+                                                Claims
+                                              </h2>
+                                            </div>
+
+                                            <div className="front-desc-part">
+                                              <p className="front-desc text-16">
+                                                Despite a growing battle between
+                                                insurance carriers and
+                                                physicians, that often leaves
+                                                clients in the middle, Jeewanjee
+                                                Insurance has had success
+                                                intervening for clients,
+                                                providing solutions to the
+                                                employee.
+                                              </p>
+                                            </div>
+                                          </div>
+                                        </div>
+
+                                        <div className="back-part">
+                                          <div className="back-background-overlay"></div>
+                                          <div className="back-content-part">
+                                            <div className="back-title-part">
+                                              <h2 className="back-title">
+                                                Claims
+                                              </h2>
+                                            </div>
+
+                                            <div className="back-desc-part">
+                                              <p className="back-desc text-16">
+                                                Despite a growing battle between
+                                                insurance carriers and
+                                                physicians, that often leaves
+                                                clients in the middle, Jeewanjee
+                                                Insurance has had success
+                                                intervening for clients,
+                                                providing solutions to the
+                                                employee.
+                                              </p>
+                                            </div>
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div
+                            className="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-06493c7"
+                            data-id="06493c7"
+                            data-element_type="column"
+                          >
+                            <div className="elementor-widget-wrap elementor-element-populated">
+                              <div
+                                className="elementor-element elementor-element-6b5f5d5 elementor-widget elementor-widget-flipbox"
+                                data-id="6b5f5d5"
+                                data-element_type="widget"
+                                data-widget_type="flipbox.default"
+                              >
+                                <div className="elementor-widget-container">
+                                  <div className="flip-box style-two">
+                                    <div className="flip-box-inner rs-flip-right">
+                                      <div className="flip-box-wrap">
+                                        <div className="front-part">
+                                          <div className="front-content-part">
+                                            <div className="front-title-part">
+                                              <h2 className="front-title">
+                                                Customer Service
+                                              </h2>
+                                            </div>
+
+                                            <div className="front-desc-part">
+                                              <p className="front-desc text-16">
+                                                Together with the client,
+                                                Jeewanjee Insurance creates an
+                                                intranet site solely for each
+                                                company, noting benefits, FAQ’s,
+                                                and forms for ready access.
+                                              </p>
+                                            </div>
+                                          </div>
+                                        </div>
+
+                                        <div className="back-part">
+                                          <div className="back-background-overlay"></div>
+                                          <div className="back-content-part">
+                                            <div className="back-title-part">
+                                              <h2 className="back-title">
+                                                Customer Service
+                                              </h2>
+                                            </div>
+
+                                            <div className="back-desc-part">
+                                              <p className="back-desc text-16">
+                                                Together with the client,
+                                                Jeewanjee Insurance creates an
+                                                intranet site solely for each
+                                                company, noting benefits, FAQ’s,
+                                                and forms for ready access.
                                               </p>
                                             </div>
                                           </div>
@@ -801,147 +885,6 @@ const About = () => {
                                       </div>
                                     </div>
                                   </div>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </section>
-                    </div>
-                  </div>
-                </div>
-              </section>
-              <section
-                className="elementor-section elementor-top-section elementor-element elementor-element-39dfbe2 elementor-section-boxed elementor-section-height-default elementor-section-height-default"
-                data-id="39dfbe2"
-                data-element_type="section"
-                data-settings='{"background_background":"classic"}'
-              >
-                <div className="elementor-container elementor-column-gap-default">
-                  <div
-                    className="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-c86ac67"
-                    data-id="c86ac67"
-                    data-element_type="column"
-                  >
-                    <div className="elementor-widget-wrap elementor-element-populated">
-                      <div
-                        className="elementor-element elementor-element-181c65d elementor-widget elementor-widget-sectiontitle"
-                        data-id="181c65d"
-                        data-element_type="widget"
-                        data-widget_type="sectiontitle.default"
-                      >
-                        <div className="elementor-widget-container">
-                          <div className="">
-                            <div className="section-title t_center">
-                              <h3>How to say our most</h3>
-
-                              <h2>
-                                honorable customer<span></span>
-                              </h2>
-                              <div className="bar-main">
-                                <div className="bar bar-big"></div>
-                              </div>
-
-                              <p>
-                                We are here to help you when you need your
-                                financial support, then we are help you.
-                              </p>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                      <section
-                        className="elementor-section elementor-inner-section elementor-element elementor-element-0a8f4ad elementor-section-content-middle elementor-section-boxed elementor-section-height-default elementor-section-height-default"
-                        data-id="0a8f4ad"
-                        data-element_type="section"
-                      >
-                        <div className="elementor-container elementor-column-gap-default">
-                          <div
-                            className="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-c1257f8"
-                            data-id="c1257f8"
-                            data-element_type="column"
-                            data-settings='{"background_background":"classic"}'
-                          >
-                            <div className="elementor-widget-wrap elementor-element-populated">
-                              <div
-                                className="elementor-element elementor-element-8b755f2 elementor-widget elementor-widget-testimonial"
-                                data-id="8b755f2"
-                                data-element_type="widget"
-                                data-widget_type="testimonial.default"
-                              >
-                                <div className="elementor-widget-container">
-                                  <div className="testimonial_list2 owl-carousel owl-loaded curosel-style testimonial-style-two owl-drag">
-                                    <div className="owl-stage-outer">
-                                      <div
-                                        className="owl-stage"
-                                        style={{
-                                          transform:
-                                            "translate3d(-1000px, 0px, 0px); transition: all 0s ease 0s; width: 2500px",
-                                        }}
-                                      >
-                                        <div
-                                          className="owl-item cloned"
-                                          style={{ width: "500px" }}
-                                        >
-                                          <div className="col-md-12">
-                                            <div className="single_testimonial">
-                                              <div className="testi_thumb">
-                                                <img
-                                                  decoding="async"
-                                                  src="https://wp.dreamitsolution.net/payloan/wp-content/uploads/2021/09/5.png"
-                                                  alt=""
-                                                />
-                                              </div>
-
-                                              <div className="testi_content">
-                                                <div className="testi_text">
-                                                  From time time we need
-                                                  generate sample names to
-                                                  populate a test database
-                                                  usually just requiring first
-                                                  and last names address.{" "}
-                                                </div>
-                                              </div>
-                                              <div className="testi_title">
-                                                <h2>
-                                                  Evelyn Goodman
-                                                  <span>Founder</span>
-                                                </h2>
-                                              </div>
-                                            </div>
-                                          </div>
-                                        </div>
-                                      </div>
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                          <div
-                            className="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-a98502c"
-                            data-id="a98502c"
-                            data-element_type="column"
-                          >
-                            <div className="elementor-widget-wrap elementor-element-populated">
-                              <div
-                                className="elementor-element elementor-element-4a658bb elementor-widget elementor-widget-image"
-                                data-id="4a658bb"
-                                data-element_type="widget"
-                                data-widget_type="image.default"
-                              >
-                                <div className="elementor-widget-container">
-                                  <img
-                                    decoding="async"
-                                    width="608"
-                                    height="792"
-                                    src="https://wp.ditsolution.net/payloan/wp-content/uploads/2021/08/3-3.png"
-                                    className="attachment-large size-large"
-                                    alt=""
-                                    loading="lazy"
-                                    srcset="https://wp.ditsolution.net/payloan/wp-content/uploads/2021/08/3-3.png 608w, https://wp.ditsolution.net/payloan/wp-content/uploads/2021/08/3-3-230x300.png 230w"
-                                    sizes="(max-width: 608px) 100vw, 608px"
-                                  />{" "}
                                 </div>
                               </div>
                             </div>
