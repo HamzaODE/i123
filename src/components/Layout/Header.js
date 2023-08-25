@@ -6,7 +6,6 @@ const Header = () => {
 
   useEffect(() => {
     const handleScroll = () => {
-      // Calculate the scroll position and define color logic here
       const scrollY = window.scrollY;
       const newBackgroundColor = scrollY > 100 ? "white" : "transparent";
 

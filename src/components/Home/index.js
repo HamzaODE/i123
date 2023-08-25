@@ -1,8 +1,11 @@
 import React from "react";
+import { Link } from "react-router-dom";
+import Stripe from "../Stripe";
 
 const Home = () => {
   return (
     <>
+      {/* <Stripe /> */}
       <section
         className="elementor-section elementor-top-section elementor-element elementor-element-1fd3970 elementor-section-boxed elementor-section-height-default elementor-section-height-default"
         data-id="1fd3970"
@@ -43,7 +46,9 @@ const Home = () => {
                               </div>
 
                               <div className="hero-button">
-                                <a href="">Learn More</a>
+                                <Link to="/get-quote?question=1">
+                                  Get Quote
+                                </Link>
                               </div>
                             </div>
                           </div>
