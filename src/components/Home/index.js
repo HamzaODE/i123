@@ -41,7 +41,8 @@ const Home = () => {
                               </div>
                               <div className="description">
                                 <p>
-                                  We’re simplifying the way people buy insurance
+                                  We’re simplifying the way people buy
+                                  insurance.
                                 </p>
                               </div>
 
@@ -357,7 +358,7 @@ const Home = () => {
                         <div className="elementor-widget-container">
                           <p>
                             When life takes unexpected turns, rest assured,
-                            we’ve got you covered
+                            we’ve got you covered.
                           </p>
                         </div>
                       </div>
@@ -376,7 +377,7 @@ const Home = () => {
                             >
                               <span className="elementor-button-content-wrapper">
                                 <span className="elementor-button-text">
-                                  View More
+                                  Learn More
                                 </span>
                               </span>
                             </a>

@@ -129,7 +129,10 @@ const Footer = () => {
           <div className="row">
             <div className="col-md-12 footer_style_1">
               <div className="copy-right-text text-center">
-                <p>Copyright © payloan all rights reserved.</p>
+                <p>
+                  Copyright 2005-2015 Jeewanjee Insurance Agency All rights
+                  reserved California Lic # 0697055
+                </p>
               </div>
             </div>
           </div>

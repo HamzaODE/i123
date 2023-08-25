@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import logo from "../../assets/images/insure-logo.png";
 const Header = () => {
   const [backgroundColor, setBackgroundColor] = useState("transparent");
-
+  const navigate = useNavigate();
   useEffect(() => {
     const handleScroll = () => {
       const scrollY = window.scrollY;
@@ -87,6 +87,14 @@ const Header = () => {
                         className="menu-item menu-item-type-post_type menu-item-object-page menu-item-1163"
                       >
                         <Link to="/contact-us">Contact</Link>
+                      </li>
+                      <li>
+                        <button
+                          className="bg-[#8180E0] text-[18px] text-white rounded-md px-[10px] py-[4px]"
+                          onClick={() => navigate("/get-quote?question=1")}
+                        >
+                          Sign in
+                        </button>
                       </li>
                     </ul>
                     {/* <div className="donate-btn-header">
