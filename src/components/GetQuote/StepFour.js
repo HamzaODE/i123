@@ -11,7 +11,7 @@ const StepFour = ({ routeHandler }) => {
       <div className="text-center text-[30px] font-light flex gap-2">
         <p>What is your estimated Annual Revenue?</p>
       </div>
-      <div className="grid grid-cols-3 gap-8">
+      <div className="grid grid-cols-2 md:grid-cols-3 gap-8">
         <button
           onClick={submitHandler}
           className="flex flex-col justify-center items-center border-[1px] border-[#646498] rounded-2xl shadow-[0px_4px_4px_0px_rgba(0,0,0,0.25)]"

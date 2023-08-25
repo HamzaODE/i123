@@ -10,7 +10,7 @@ const StepSeven = ({ routeHandler }) => {
   return (
     <>
       {" "}
-      <div>
+      <div className="text-center">
         <p>Last screen</p>
         <p>Circular Bar here</p>
         We can get you a more accurate quote if you answer a few more questions

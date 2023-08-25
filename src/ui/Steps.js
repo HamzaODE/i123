@@ -2,7 +2,7 @@ import React from "react";
 
 const Steps = ({ question, totalQuestions }) => {
   return (
-    <div className="flex justify-center gap-2">
+    <div className="flex flex-wrap justify-center gap-2">
       {totalQuestions?.map((ele, index) => (
         <div
           className={`${

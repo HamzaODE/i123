@@ -15,7 +15,7 @@ const StepOne = ({ routeHandler }) => {
       <form onSubmit={submitHandler}>
         <input
           placeholder="Enter business name"
-          className="border-[#646498] border-[1px] rounded-2xl px-4 py-2 text-[18px] w-[400px] shadow-[0px_4px_4px_0px_rgba(0,0,0,0.25)]"
+          className="border-[#646498] border-[1px] rounded-2xl px-4 py-2 text-[18px] md:w-[400px] shadow-[0px_4px_4px_0px_rgba(0,0,0,0.25)]"
           required
         />
         <p className="font-light text-[30px] mt-8">
@@ -23,7 +23,7 @@ const StepOne = ({ routeHandler }) => {
         </p>
         <input
           placeholder="Enter address"
-          className="border-[#646498] border-[1px] rounded-2xl px-4 py-2 text-[18px] w-[400px] shadow-[0px_4px_4px_0px_rgba(0,0,0,0.25)]"
+          className="border-[#646498] border-[1px] rounded-2xl px-4 py-2 text-[18px] md:w-[400px] shadow-[0px_4px_4px_0px_rgba(0,0,0,0.25)]"
           required
         />
         <p className="font-light text-[30px] mt-8 text-center">
@@ -35,7 +35,7 @@ const StepOne = ({ routeHandler }) => {
         </p>
         <input
           placeholder="Enter mailing address"
-          className="border-[#646498] border-[1px] rounded-2xl px-4 py-2 text-[18px] w-[400px] shadow-[0px_4px_4px_0px_rgba(0,0,0,0.25)]"
+          className="border-[#646498] border-[1px] rounded-2xl px-4 py-2 text-[18px] md:w-[400px] shadow-[0px_4px_4px_0px_rgba(0,0,0,0.25)]"
           required
         />
         <div className="my-7">

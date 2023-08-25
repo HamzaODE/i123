@@ -20,7 +20,7 @@ const StepSix = ({ routeHandler }) => {
         <p>How much Business Personal Property do you have?</p>
         <img src={shieldIcon} alt="shield-icon" className="h-100 mt-2" />
       </div>
-      <div className="grid grid-cols-3 gap-8">
+      <div className="grid grid-cols-2 md:grid-cols-3 gap-8">
         <button
           onClick={questionHandler}
           className="flex flex-col justify-center items-center border-[1px] border-[#646498] rounded-2xl shadow-[0px_4px_4px_0px_rgba(0,0,0,0.25)]"
@@ -61,7 +61,7 @@ const StepSix = ({ routeHandler }) => {
               className="border-[#646498] border-[1px] rounded-2xl px-4 py-2 text-[18px] shadow-[0px_4px_4px_0px_rgba(0,0,0,0.25)]"
               required
             />
-            <p className="font-light text-[30px] mt-4">
+            <p className="font-light text-[30px] mt-4 text-center">
               Enter the size of your Office in sq ft.
             </p>
             <input

@@ -23,7 +23,7 @@ const StepTwo = ({ routeHandler }) => {
         <p>Hey Hamza! Tell us about your business</p>
         <img src={shieldIcon} alt="shield-icon" className="h-100 mt-2" />
       </div>
-      <div className="grid grid-cols-3 gap-8">
+      <div className="grid grid-cols-2 md:grid-cols-3 gap-8">
         <button
           onClick={questionHandler}
           className="flex flex-col justify-center items-center border-[1px] border-[#646498] rounded-2xl shadow-[0px_4px_4px_0px_rgba(0,0,0,0.25)]"
