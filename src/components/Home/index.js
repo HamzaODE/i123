@@ -36,7 +36,7 @@ const Home = () => {
                                 <h2>
                                   Peace of mind
                                   <br />
-                                  <span>Two policy at a time</span>
+                                  <span>One policy at a time</span>
                                 </h2>
                               </div>
                               <div className="description">

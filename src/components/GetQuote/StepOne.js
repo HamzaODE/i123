@@ -1,6 +1,12 @@
 import React from "react";
+import useLocalSave from "../../hooks/useLocalSave";
+
 
 const StepOne = ({ routeHandler }) => {
+  const [fname, setFName] = useLocalSave("firstName", "");
+  const [lname, setLName] = useLocalSave("lastName", "");
+
+
   const submitHandler = (e) => {
     e.preventDefault();
     routeHandler("/get-quote?question=2");
@@ -13,21 +19,22 @@ const StepOne = ({ routeHandler }) => {
         <div className="flex flex-col lg:flex-row gap-4 lg:gap-14 my-10">
           <input
             placeholder="Firstname"
+            value={fname}
+            onChange={(e) => setFName(e.target.value)}
             className="border-[#646498] border-[1px] rounded-2xl px-4 py-2 text-[18px] shadow-[0px_4px_4px_0px_rgba(0,0,0,0.25)]"
             required
           />
           <input
             placeholder="Lastname"
+            value={lname}
+            onChange={(e) => setLName(e.target.value)}
             className="border-[#646498] border-[1px] rounded-2xl px-4 py-2 text-[18px] shadow-[0px_4px_4px_0px_rgba(0,0,0,0.25)]"
             required
           />
         </div>
-        <button
-          type="submit"
-          className="text-[18px] border-[#AEADC8] px-8 rounded-2xl py-[2px] border-[1px] text-[#646498]"
-        >
-          Next
-        </button>
+        <div className="primary-btn">
+          <button type="submit">Next</button>
+        </div>
       </form>
     </div>
   );
