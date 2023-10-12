@@ -6894,3 +6894,56 @@ Lines Area Style
 .update-message.notice.inline.notice-warning.notice-alt {
   display: none !important;
 }
+
+.primary-btn button {
+  font-size: 17px;
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+  background: #8180E0;
+  padding: 13px 40px;
+  display: inline-block;
+  color: #fff;
+  display: inline-block;
+  position: relative;
+  z-index: 1;
+  border-radius: 4px;
+    /* -webkit-animation: 1s 2s fadeInUp both; */
+  /* animation: 1s 2s fadeInUp both; */
+}
+.primary-btn button:hover{
+background: #8180E0;
+color: wh;
+}
+.primary-btn button:after {
+  position: absolute;
+  content: "";
+  right: 0px;
+  bottom: 0px;
+  height: 100%;
+  width: 100%;
+  background: #222222;
+ border-radius: 4px;
+  z-index: -1;
+  transition: .5s;
+transform:scale(0);
+}
+.primary-btn button:hover:after {
+transform:scale(1);
+}
+
+.back-icon{
+  width: 32px;
+  background: rgb(229 231 235);
+  border-radius: 100% !important;
+  cursor: pointer;
+}
+
+.check-icon{
+
+  width: 25px;
+  padding: 5px;
+  background: #60d794;
+  border-radius: 100% !important;
+  cursor: pointer;
+}
