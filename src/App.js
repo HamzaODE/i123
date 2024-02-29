@@ -10,6 +10,7 @@ import About from "./components/About";
 import Services from "./components/Services";
 import Contact from "./components/Contact";
 import GetQuote from "./components/GetQuote";
+import Dummy from "./components/Dummy";
 import MoreQuestions from "./components/MoreQuestions";
 import QuestionsLayout from "./components/Layout/QuestionsLayout";
 function App() {
@@ -23,6 +24,7 @@ function App() {
       </Route>
       <Route exact element={<QuestionsLayout />}>
         <Route exact path="/get-quote" element={<GetQuote />} />
+        <Route exact path="/dummy" element={<Dummy />} />
         <Route exact path="/more" element={<MoreQuestions />} />
       </Route>
       {/* <Route path="/about" component={AboutPage} /> */}
