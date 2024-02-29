@@ -11,6 +11,13 @@ import Services from "./components/Services";
 import Contact from "./components/Contact";
 import GetQuote from "./components/GetQuote";
 import Dummy from "./components/Dummy";
+import Business from "./components/Business";
+import CyberLiability from "./components/Business/CyberLiability";
+import Epli from "./components/Business/Epli";
+import GeneralLiability from "./components/Business/GeneralLiability";
+import GroupMedical from "./components/Business/GroupMedical";
+import Umbrella from "./components/Business/Umbrella";
+import WorkersComp from "./components/Business/WorkersComp";
 import MoreQuestions from "./components/MoreQuestions";
 import QuestionsLayout from "./components/Layout/QuestionsLayout";
 function App() {
@@ -25,6 +32,13 @@ function App() {
       <Route exact element={<QuestionsLayout />}>
         <Route exact path="/get-quote" element={<GetQuote />} />
         <Route exact path="/dummy" element={<Dummy />} />
+        <Route exact path="/Business" element={<Business />} />
+        <Route exact path="/CyberLiability" element={<CyberLiability />} />
+        <Route exact path="/Epli" element={<Epli />} />
+        <Route exact path="/GeneralLiability" element={<GeneralLiability />} />
+        <Route exact path="/GroupMedical" element={<GroupMedical />} />
+        <Route exact path="/Umbrella" element={<Umbrella />} />
+        <Route exact path="/WorkersComp" element={<WorkersComp />} />
         <Route exact path="/more" element={<MoreQuestions />} />
       </Route>
       {/* <Route path="/about" component={AboutPage} /> */}

@@ -57,6 +57,12 @@ const Home = () => {
                                   Dummy
                                 </Link>
                               </div>
+
+                              <div className="hero-button">
+                                <Link to="/business?question=1">
+                                  Business
+                                </Link>
+                              </div>
                             </div>
                           </div>
                           <div className="col-lg-6 col-md-12 col-sm-12 shape-img-right">
