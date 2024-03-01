@@ -10,7 +10,7 @@ const StepSixteen = ({ routeHandler }) => {
 
   const submitHandler = (e) => {
     e.preventDefault();
-    routeHandler("/GeneralLiability?question=16");
+    routeHandler("/Umbrella?question=16");
   };
   return (
     <div className="text-center text-[30px] font-light text-black">

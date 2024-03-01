@@ -3,14 +3,14 @@ import useLocalSave from "../../../hooks/useLocalSave";
 
 
 
-const StepSixteen = ({ routeHandler }) => {
+const StepEighteen = ({ routeHandler }) => {
   const [email, setEmail] = useLocalSave("email", "");
   const [number, setNumber] = useLocalSave("number", "");
 
 
   const submitHandler = (e) => {
     e.preventDefault();
-    routeHandler("/GeneralLiability?question=16");
+    routeHandler("/WorkersComp?question=18");
   };
   return (
     <div className="text-center text-[30px] font-light text-black">
@@ -41,4 +41,4 @@ const StepSixteen = ({ routeHandler }) => {
   );
 };
 
-export default StepSixteen;
+export default StepEighteen;

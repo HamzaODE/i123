@@ -37,7 +37,7 @@ const StepFive = ({ routeHandler }) => {
       $342 <span className="text-base font-medium ml-2 text-tertiary">5k GENERAL LIABILITY</span>
     </div>
     <div className="primary-btn text-center">
-          <button type="submit" onClick={submitHandler}>Next</button>
+          <button type="submit"  onClick={submitHandler}>Next</button>
         </div>
   </div>
   );

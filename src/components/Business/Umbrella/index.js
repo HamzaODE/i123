@@ -12,6 +12,9 @@ import StepTen from "./StepTen";
 import StepEleven from "./StepEleven";
 import StepTwelve from "./StepTwelve";
 import StepThirteen from "./StepThirteen";
+import StepFourteen from "./StepFourteen";
+import StepFifteen from "./StepFifteen";
+import StepSixteen from "./StepSixteen";
 import { useLocation, useNavigate } from "react-router-dom";
 import Steps from "../../../ui/Steps";
 
@@ -29,6 +32,9 @@ const questionsMap = {
  11: StepEleven,
  12: StepTwelve,
  13: StepThirteen,
+ 14: StepFourteen,
+  15: StepFifteen,
+  16: StepSixteen,
 };
 
 const GetQuote = () => {
