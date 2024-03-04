@@ -19,7 +19,7 @@ const Steps = ({ question, totalQuestions }) => {
           routeHandler(
             question == 1
               ? "/"
-              : `/get-quote?question=${question - 1}`, navigate
+              : `/dummy?question=${question - 1}`, navigate
           )
         } />
     }

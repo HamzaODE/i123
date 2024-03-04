@@ -9,7 +9,7 @@ const StepOne = ({ routeHandler }) => {
 
   const submitHandler = (e) => {
     e.preventDefault();
-    routeHandler("/get-quote?question=2");
+    routeHandler("/dummy?question=2");
   };
   return (
     <div className="text-center text-[30px] font-light text-black">

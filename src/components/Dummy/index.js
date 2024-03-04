@@ -1,7 +1,9 @@
 import React from "react";
 import StepOne from "./StepOne";
 import StepTwo from "./StepTwo";
-import StepThree from "./StepThree";
+import StepThreeA from "./StepThreeA";
+import StepThreeB from "./StepThreeB";
+import StepThreeC from "./StepThreeC";
 import StepFour from "./StepFour";
 import StepFive from "./StepFive";
 import StepSix from "./StepSix";
@@ -12,7 +14,7 @@ import Steps from "../../ui/Steps";
 const questionsMap = {
   1: StepOne,
   2: StepTwo,
-  3: StepThree,
+  3: [[StepThreeA,() => localStorage.getItem('business') === 'IT'], [StepThreeB, () => localStorage.getItem('business') === 'Accounts Office'], [StepThreeC, () => localStorage.getItem('business') === 'Attorney Offices']],
   4: StepFour,
   5: StepFive,
   6: StepSix,
@@ -24,11 +26,26 @@ const GetQuote = () => {
   const location = useLocation();
   const queryParams = new URLSearchParams(location.search);
   const question = queryParams.get("question");
-  const Component = questionsMap[question];
   const totalQuestions = Object.keys(questionsMap);
   const routeHandler = (newRoute) => {
     navigate(newRoute);
   };
+
+
+  const getConditionalComponent = (componentsArray) => {
+    for (let [Component, condition] of componentsArray) {
+      if (condition) {
+        return Component;
+      }
+    }
+    return null;
+  };
+
+  const currentQuestion = questionsMap[question];
+  const Component =
+    Array.isArray(currentQuestion) && currentQuestion.length > 0
+      ? getConditionalComponent(currentQuestion)
+      : currentQuestion;
 
   return (
     <div className="relative min-h-[50vh] pt-20">

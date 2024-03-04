@@ -31,11 +31,11 @@ const StepTwo = ({ routeHandler }) => {
 
   const questionHandler = () => {
     setShow(false);
-    routeHandler("/get-quote?question=3");
+    routeHandler("/dummy?question=3");
   };
   const submitHandler = (e) => {
     e.preventDefault();
-    routeHandler("/get-quote?question=3");
+    routeHandler("/dummy?question=3");
   };
 
 
