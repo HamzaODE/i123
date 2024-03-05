@@ -1,10 +1,22 @@
 import React from "react";
 import StepOne from "./StepOne";
+import StepTwo from "./StepTwo";
+import StepThree from "./StepThree";
+import StepFour from "./StepFour";
+import StepFive from "./StepFive";
+import StepSix from "./StepSix";
+import StepSeven from "./StepSeven";
 import { useLocation, useNavigate } from "react-router-dom";
 import Steps from "../../../ui/Steps";
 
 const questionsMap = {
   1: StepOne,
+  2: StepTwo,
+  3: StepThree,
+  4: StepFour,
+  5: StepFive,
+  6: StepSix,
+  7: StepSeven,
 };
 
 const GetQuote = () => {

@@ -2,24 +2,23 @@ import React from "react";
 import useLocalSave from "../../../hooks/useLocalSave";
 
 
-const StepFive = ({ routeHandler }) => {
-  const [vin, setVin] = useLocalSave("VIN", "");
+const StepEleven = ({ routeHandler }) => {
+  const [mplan, setMPlan] = useLocalSave("medicalPlan", "");
 
 
   const submitHandler = (e) => {
     e.preventDefault();
-    routeHandler("/personal/auto?question=6");
+    routeHandler("/personal/medical?question=12");
   };
   return (
     <div className="text-center text-[30px] font-light text-black">
-      <p>Great! Let's talk about your cars.</p>
-      <b>Vehicle 1 info</b>
+      <p>Tell us about your current medical plan?</p>
       <form onSubmit={submitHandler}>
         <div className="flex justify-center flex-col lg:flex-row gap-4 lg:gap-14 my-10">
           <input
-            placeholder="Check VIN"
-            value={vin}
-            onChange={(e) => setVin(e.target.value)}
+            placeholder="Medical Plan"
+            value={mplan}
+            onChange={(e) => setMPlan(e.target.value)}
             className="border-[#646498] border-[1px] rounded-2xl px-4 py-2 text-[18px] shadow-[0px_4px_4px_0px_rgba(0,0,0,0.25)]"
             required
           />
@@ -32,4 +31,4 @@ const StepFive = ({ routeHandler }) => {
   );
 };
 
-export default StepFive;
+export default StepEleven;

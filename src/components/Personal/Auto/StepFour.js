@@ -17,14 +17,14 @@ const StepFour = ({ routeHandler }) => {
       <form onSubmit={submitHandler}>
         <div className="flex flex-col lg:flex-row gap-4 lg:gap-14 my-10">
           <input
-            placeholder="Firstname"
+            placeholder="Street"
             value={streetAddress}
             onChange={(e) => setstreetAddress(e.target.value)}
             className="border-[#646498] border-[1px] rounded-2xl px-4 py-2 text-[18px] shadow-[0px_4px_4px_0px_rgba(0,0,0,0.25)]"
             required
           />
           <input
-            placeholder="Lastname"
+            placeholder="Suit/Unit#"
             value={unit}
             onChange={(e) => setunit(e.target.value)}
             className="border-[#646498] border-[1px] rounded-2xl px-4 py-2 text-[18px] shadow-[0px_4px_4px_0px_rgba(0,0,0,0.25)]"

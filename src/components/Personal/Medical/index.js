@@ -1,10 +1,38 @@
 import React from "react";
 import StepOne from "./StepOne";
+import StepTwo from "./StepTwo";
+import StepThree from "./StepThree";
+import StepFour from "./StepFour";
+import StepFive from "./StepFive";
+import StepSix from "./StepSix";
+import StepSeven from "./StepSeven";
+import StepEight from "./StepEight";
+import StepNine from "./StepNine";
+import StepTen from "./StepTen";
+import StepEleven from "./StepEleven";
+import StepTwelve from "./StepTwelve";
+import StepThirteen from "./StepThirteen";
+import StepFourteen from "./StepFourteen";
+import StepFifteen from "./StepFifteen";
 import { useLocation, useNavigate } from "react-router-dom";
 import Steps from "../../../ui/Steps";
 
 const questionsMap = {
   1: StepOne,
+  2: StepTwo,
+  3: StepThree,
+  4: StepFour,
+  5: StepFive,
+  6: StepSix,
+  7: StepSeven,
+  8: StepEight,
+  9: StepNine,
+  10: StepTen,
+  11: StepEleven,
+  12: StepTwelve,
+  13: StepThirteen,
+  14: StepFourteen,
+  15: StepFifteen,
 };
 
 const Medical = () => {
