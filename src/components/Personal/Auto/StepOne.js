@@ -1,16 +1,24 @@
-import React from "react";
+import React, { useState } from "react";
 import useLocalSave from "../../../hooks/useLocalSave";
-
 
 const StepOne = ({ routeHandler }) => {
   const [fname, setFName] = useLocalSave("firstName", "");
   const [lname, setLName] = useLocalSave("lastName", "");
+  const [formValid, setFormValid] = useState(false);
 
+  const validateForm = () => {
+    if (fname.trim() !== "" && lname.trim() !== "") {
+      setFormValid(true);
+    } else {
+      setFormValid(false);
+    }
+  };
 
   const submitHandler = (e) => {
     e.preventDefault();
     routeHandler("/personal/auto?question=2");
   };
+
   return (
     <div className="text-center text-[30px] font-light text-black">
       <p>Hi! I’m Zain. Nice to meet you.</p>
@@ -20,20 +28,20 @@ const StepOne = ({ routeHandler }) => {
           <input
             placeholder="Firstname"
             value={fname}
-            onChange={(e) => setFName(e.target.value)}
+            onChange={(e) => { setFName(e.target.value); validateForm(); }}
             className="border-[#646498] border-[1px] rounded-2xl px-4 py-2 text-[18px] shadow-[0px_4px_4px_0px_rgba(0,0,0,0.25)]"
             required
           />
           <input
             placeholder="Lastname"
             value={lname}
-            onChange={(e) => setLName(e.target.value)}
+            onChange={(e) => { setLName(e.target.value); validateForm(); }}
             className="border-[#646498] border-[1px] rounded-2xl px-4 py-2 text-[18px] shadow-[0px_4px_4px_0px_rgba(0,0,0,0.25)]"
             required
           />
         </div>
         <div className="primary-btn">
-          <button type="submit">Next</button>
+          <button type="submit" disabled={!formValid}>Next</button>
         </div>
       </form>
     </div>
