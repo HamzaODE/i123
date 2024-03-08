@@ -8,7 +8,7 @@ const StepOne = ({ routeHandler }) => {
 
   const submitHandler = (e) => {
     e.preventDefault();
-    routeHandler("/GroupMedical?question=2");
+    routeHandler("/GeneralLiability?question=2");
   };
   return (
     <div className="text-Left text-[30px] font-light text-black">

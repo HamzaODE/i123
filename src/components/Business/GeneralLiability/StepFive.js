@@ -30,7 +30,7 @@ const StepFive = ({ routeHandler }) => {
     </div>
     <div className="flex items-center justify-center mt-8">
       <button className="px-6 py-2 text-white bg-secondary rounded">
-        Buy Now
+        Buy Now 
       </button>
     </div>
     <div className="text-xl font-medium text-center text-primary mt-8">
