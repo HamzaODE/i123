@@ -5,7 +5,7 @@ const StepFive = ({ routeHandler }) => {
 
   const submitHandler = (e) => {
     e.preventDefault();
-    routeHandler("/GeneralLiability?question=6");
+    routeHandler("/GroupMedical?question=6");
   };
   return (
     <div className="p-8 max-w-sm mx-auto bg-background rounded-xl shadow-md">

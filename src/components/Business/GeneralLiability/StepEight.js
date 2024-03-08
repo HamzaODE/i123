@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import * as yup from 'yup';
 import useLocalSave from "../../../hooks/useLocalSave";
 
 const StepEight = ({ routeHandler }) => {
@@ -8,18 +7,27 @@ const StepEight = ({ routeHandler }) => {
   const [cname, setCName] = useLocalSave("companyName", "");
   const [errors, setErrors] = useState({});
 
-  
-  const schema = yup.object().shape({
-    sAddress: yup.string().required('Street address is required'),
-    sUnit: yup.string().required('Unit number is required'),
-  });
-  
   const submitHandler = (e) => {
     e.preventDefault();
     if (!validateForm()) {
       return;
     }
     routeHandler("/GeneralLiability?question=9");
+  };
+
+  const validateForm = () => {
+    let isValid = true;
+    const newErrors = {};
+    if (sAddress.trim() === "") {
+      newErrors.sAddress = "Street address is required";
+      isValid = false;
+    }
+    if (sUnit.trim() === "") {
+      newErrors.sUnit = "Unit number is required";
+      isValid = false;
+    }
+    setErrors(newErrors);
+    return isValid;
   };
 
   return (

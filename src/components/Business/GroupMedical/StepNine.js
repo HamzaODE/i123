@@ -9,7 +9,7 @@ const StepNine = ({ routeHandler }) => {
 
   const submitHandler = (e) => {
     e.preventDefault();
-    routeHandler("/GeneralLiability?question=10");
+    routeHandler("/GroupMedical?question=10");
   };
   return (
     <div className="text-center text-[30px] font-light text-black">

@@ -12,7 +12,7 @@ const StepTwo = ({ routeHandler }) => {
       setError("Zip code must be exactly 5 digits");
       return;
     }
-    routeHandler("/GeneralLiability?question=3");
+    routeHandler("/GroupMedical?question=3");
   };
 
   const validateZip = (zip) => {

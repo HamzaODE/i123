@@ -11,7 +11,7 @@ const StepThree = ({ routeHandler }) => {
       setError("Please select a valid revenue option");
       return;
     }
-    routeHandler("/GeneralLiability?question=4");
+    routeHandler("/GroupMedical?question=4");
   };
 
   const validateRevenue = (revenue) => {

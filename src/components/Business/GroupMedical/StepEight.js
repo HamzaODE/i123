@@ -12,7 +12,7 @@ const StepEight = ({ routeHandler }) => {
     if (!validateForm()) {
       return;
     }
-    routeHandler("/GeneralLiability?question=9");
+    routeHandler("/GroupMedical?question=9");
   };
 
   const validateForm = () => {

@@ -13,7 +13,7 @@ const StepFour = ({ routeHandler }) => {
       setError("Please enter a valid ZIP code");
       return;
     }
-    routeHandler("/GeneralLiability?question=8");
+    routeHandler("/GroupMedical?question=8");
   };
 
   const validateZipCode = (zip) => {

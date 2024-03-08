@@ -30,14 +30,14 @@ const StepFive = ({ routeHandler }) => {
     </div>
     <div className="flex items-center justify-center mt-8">
       <button className="px-6 py-2 text-white bg-secondary rounded">
-        Buy Now
+        Buy Now 
       </button>
     </div>
     <div className="text-xl font-medium text-center text-primary mt-8">
       $342 <span className="text-base font-medium ml-2 text-tertiary">5k GENERAL LIABILITY</span>
     </div>
     <div className="primary-btn text-center">
-          <button type="submit"  onClick={submitHandler}>Next</button>
+          <button type="submit" onClick={submitHandler}>Next</button>
         </div>
   </div>
   );
