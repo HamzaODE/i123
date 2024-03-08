@@ -1,16 +1,21 @@
-import React from "react";
+import React, { useState } from "react";
 import useLocalSave from "../../../hooks/useLocalSave";
-
 
 const StepOne = ({ routeHandler }) => {
   const [fname, setFName] = useLocalSave("firstName", "");
   const [lname, setLName] = useLocalSave("lastName", "");
-
+  const [error, setError] = useState("");
 
   const submitHandler = (e) => {
     e.preventDefault();
+    if (!fname || !lname) {
+      setError("Please fill out both first name and last name.");
+      return;
+    }
+    setError("");
     routeHandler("/personal/auto?question=2");
   };
+
   return (
     <div className="text-center text-[30px] font-light text-black">
       <p>Hi! I’m Zain. Nice to meet you.</p>
@@ -32,6 +37,7 @@ const StepOne = ({ routeHandler }) => {
             required
           />
         </div>
+        {error && <p className="text-red-500">{error}</p>}
         <div className="primary-btn">
           <button type="submit">Next</button>
         </div>
