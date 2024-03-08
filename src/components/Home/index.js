@@ -46,10 +46,24 @@ const Home = () => {
                                 </p>
                               </div>
 
-                              <div className="hero-button">
-                                <Link to="/get-quote?question=1">
-                                  Get Quote
+                              <div className="row">
+                              <div className="hero-button col">
+                                <Link to="/business?question=1">
+                                  Business
                                 </Link>
+                              </div>
+                              <div className="hero-button col">
+                                <Link to="/Personal?question=1">
+                                  Personal
+                                </Link>
+                              </div>
+
+                              <div className="hero-button col">
+                                <Link to="#">
+                                  More
+                                </Link>
+                              </div>
+
                               </div>
                             </div>
                           </div>
