@@ -11,7 +11,7 @@ const StepFour = ({ routeHandler }) => {
       setError("Please select a valid payroll option");
       return;
     }
-    routeHandler("/GroupMedical?question=5");
+    routeHandler("/GroupMedical?question=6");
   };
 
   const validatePayroll = (payroll) => {
