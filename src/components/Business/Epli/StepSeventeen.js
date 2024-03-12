@@ -8,7 +8,7 @@ const StepSeventeen = ({ routeHandler }) => {
 
   const submitHandler = (e) => {
     e.preventDefault();
-    routeHandler("/Epli?question=17");
+    routeHandler("/Epli?question=18");
   };
 
   return (

@@ -8,7 +8,7 @@ const StepFifteen = ({ routeHandler }) => {
 
   const submitHandler = (e) => {
     e.preventDefault();
-    routeHandler("/personal/medical?question=15");
+    routeHandler("/personal/medical?question=16");
   };
 
   return (

@@ -9,6 +9,8 @@ import StepSeven from "./StepSeven";
 import StepEight from "./StepEight";
 import StepNine from "./StepNine";
 import StepTen from "./StepTen";
+import LocalStorageViewer from "./EndPage"
+
 import { useLocation, useNavigate } from "react-router-dom";
 import Steps from "../../../ui/Steps";
 
@@ -23,6 +25,7 @@ const questionsMap = {
   8: StepEight,
   9: StepNine,
   10: StepTen,
+  11: LocalStorageViewer,
 };
 
 const Auto = () => {

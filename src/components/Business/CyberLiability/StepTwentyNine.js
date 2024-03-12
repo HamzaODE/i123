@@ -8,7 +8,7 @@ const StepSixteen = ({ routeHandler }) => {
 
   const submitHandler = (e) => {
     e.preventDefault();
-    routeHandler("/CyberLiability?question=29");
+    routeHandler("/CyberLiability?question=30");
   };
 
   return (

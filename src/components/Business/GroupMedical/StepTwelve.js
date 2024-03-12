@@ -22,7 +22,7 @@ const StepEleven = ({ routeHandler }) => {
   const submitHandler = (e) => {
     e.preventDefault();
     if (validate()) {
-      routeHandler("/GroupMedical?question=12");
+      routeHandler("/GroupMedical?question=13");
     }
   };
 

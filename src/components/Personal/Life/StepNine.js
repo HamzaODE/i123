@@ -8,7 +8,7 @@ const StepNine = ({ routeHandler }) => {
 
   const submitHandler = (e) => {
     e.preventDefault();
-    routeHandler("/personal/life?question=10");
+    routeHandler("/personal/life?question=35");
   };
   return (
     <div className="text-center text-[30px] font-light text-black">

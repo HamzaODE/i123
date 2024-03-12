@@ -8,7 +8,7 @@ const StepSeven = ({ routeHandler }) => {
 
   const submitHandler = (e) => {
     e.preventDefault();
-    routeHandler("/personal/auto?question=10");
+    routeHandler("/personal/umbrella?question=8");
   };
 
   return (

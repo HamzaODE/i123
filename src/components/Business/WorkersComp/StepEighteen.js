@@ -8,7 +8,7 @@ const StepEighteen = ({ routeHandler }) => {
 
   const submitHandler = (e) => {
     e.preventDefault();
-    routeHandler("/WorkersComp?question=18");
+    routeHandler("/WorkersComp?question=19");
   };
 
   return (

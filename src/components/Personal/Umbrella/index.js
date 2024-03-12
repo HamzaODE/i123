@@ -6,6 +6,8 @@ import StepFour from "./StepFour";
 import StepFive from "./StepFive";
 import StepSix from "./StepSix";
 import StepSeven from "./StepSeven";
+import LocalStorageViewer from "./EndPage"
+
 import { useLocation, useNavigate } from "react-router-dom";
 import Steps from "../../../ui/Steps";
 
@@ -17,6 +19,7 @@ const questionsMap = {
   5: StepFive,
   6: StepSix,
   7: StepSeven,
+  8: LocalStorageViewer,
 };
 
 const GetQuote = () => {

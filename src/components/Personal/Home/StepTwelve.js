@@ -8,7 +8,7 @@ const StepTwelve = ({ routeHandler }) => {
 
   const submitHandler = (e) => {
     e.preventDefault();
-    routeHandler("/personal/home?question=12");
+    routeHandler("/personal/home?question=13");
   };
 
   return (

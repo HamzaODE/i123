@@ -33,6 +33,7 @@ import StepThirtyOne from "./StepThirtyOne";
 import StepThirtyTwo from "./StepThirtyTwo";
 import StepThirtyThree from "./StepThirtyThree";
 import StepThirtyFour from "./StepThirtyFour";
+import LocalStorageViewer from "./EndPage"
 import { useLocation, useNavigate } from "react-router-dom";
 import Steps from "../../../ui/Steps";
 
@@ -71,6 +72,7 @@ const questionsMap = {
   32: StepThirtyTwo,
   33: StepThirtyThree,
   34: StepThirtyFour,
+  35: LocalStorageViewer
 };
 
 const Life = () => {

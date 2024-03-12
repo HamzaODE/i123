@@ -28,6 +28,8 @@ import StepTwentySix from "./StepTwentySix";
 import StepTwentySeven from "./StepTwentySeven";
 import StepTwentyEight from "./StepTwentyEight";
 import StepTwentyNine from "./StepTwentyNine";
+import LocalStorageViewer from "./EndPage"
+
 import { useLocation, useNavigate } from "react-router-dom";
 import Steps from "../../../ui/Steps";
 
@@ -61,6 +63,7 @@ const questionsMap = {
   27: StepTwentySeven,
   28: StepTwentyEight,
   29: StepTwentyNine,
+  30: LocalStorageViewer,
 
 };
 

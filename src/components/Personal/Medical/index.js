@@ -14,6 +14,8 @@ import StepTwelve from "./StepTwelve";
 import StepThirteen from "./StepThirteen";
 import StepFourteen from "./StepFourteen";
 import StepFifteen from "./StepFifteen";
+import LocalStorageViewer from "./EndPage"
+
 import { useLocation, useNavigate } from "react-router-dom";
 import Steps from "../../../ui/Steps";
 
@@ -33,6 +35,7 @@ const questionsMap = {
   13: StepThirteen,
   14: StepFourteen,
   15: StepFifteen,
+  16: LocalStorageViewer,
 };
 
 const Medical = () => {
