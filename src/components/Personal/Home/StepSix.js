@@ -18,7 +18,12 @@ const StepSix = ({ routeHandler }) => {
           <input
             placeholder="Year"
             value={yearBuilt}
-            onChange={(e) => setYearBuilt(e.target.value)}
+            onChange={(e) => {
+              const value = e.target.value;
+              if (/^\d{0,4}$/.test(value)) {
+                setYearBuilt(value);
+              }
+            }}
             className="border-[#646498] border-[1px] rounded-2xl px-4 py-2 text-[18px] shadow-[0px_4px_4px_0px_rgba(0,0,0,0.25)]"
             required
           />

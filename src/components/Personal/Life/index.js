@@ -9,6 +9,30 @@ import StepSeven from "./StepSeven";
 import StepEight from "./StepEight";
 import StepNine from "./StepNine";
 import StepTen from "./StepTen";
+import StepEleven from "./StepEleven";
+import StepTwelve from "./StepTwelve";
+import StepThirteen from "./StepThirteen";
+import StepFourteen from "./StepFourteen";
+import StepFifteen from "./StepFifteen";
+import StepSixteen from "./StepSixteen";
+import StepSeventeen from "./StepSeventeen";
+import StepEighteen from "./StepEighteen";
+import StepNineteen from "./StepNineteen";
+import StepTwenty from "./StepTwenty";
+import StepTwentyOne from "./StepTwentyOne";
+import StepTwentyTwo from "./StepTwentyTwo";
+import StepTwentyThree from "./StepTwentyThree";
+import StepTwentyFour from "./StepTwentyFour";
+import StepTwentyFive from "./StepTwentyFive";
+import StepTwentySix from "./StepTwentySix";
+import StepTwentySeven from "./StepTwentySeven";
+import StepTwentyEight from "./StepTwentyEight";
+import StepTwentyNine from "./StepTwentyNine";
+import StepThirty from "./StepThirty";
+import StepThirtyOne from "./StepThirtyOne";
+import StepThirtyTwo from "./StepThirtyTwo";
+import StepThirtyThree from "./StepThirtyThree";
+import StepThirtyFour from "./StepThirtyFour";
 import { useLocation, useNavigate } from "react-router-dom";
 import Steps from "../../../ui/Steps";
 
@@ -23,6 +47,30 @@ const questionsMap = {
   8: StepEight,
   9: StepNine,
   10: StepTen,
+  11: StepEleven,
+  12: StepTwelve,
+  13: StepThirteen,
+  14: StepFourteen,
+  15: StepFifteen,
+  16: StepSixteen,
+  17: StepSeventeen,
+  18: StepEighteen,
+  19: StepNineteen,
+  20: StepTwenty,
+  21: StepTwentyOne,
+  22: StepTwentyTwo,
+  23: StepTwentyThree,
+  24: StepTwentyFour,
+  25: StepTwentyFive,
+  26: StepTwentySix,
+  27: StepTwentySeven,
+  28: StepTwentyEight,
+  29: StepTwentyNine,
+  30: StepThirty,
+  31: StepThirtyOne,
+  32: StepThirtyTwo,
+  33: StepThirtyThree,
+  34: StepThirtyFour,
 };
 
 const Life = () => {

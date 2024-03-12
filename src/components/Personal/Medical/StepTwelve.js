@@ -16,10 +16,11 @@ const StepTwelve = ({ routeHandler }) => {
       <form onSubmit={submitHandler}>
         <div className="flex justify-center flex-col lg:flex-row gap-4 lg:gap-14 my-10">
           <input
+            type="date"
             placeholder="Loss of Coverage Date"
             value={lcDate}
             onChange={(e) => setLCDate(e.target.value)}
-            className="border-[#646498] border-[1px] rounded-2xl px-4 py-2 text-[18px] shadow-[0px_4px_4px_0px_rgba(0,0,0,0.25)]"
+            className="border-[#646498] border-[1px] rounded-2xl px-14 py-2 text-[18px] shadow-[0px_4px_4px_0px_rgba(0,0,0,0.25)]"
             required
           />
         </div>
